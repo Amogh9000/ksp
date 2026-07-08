@@ -1,105 +1,6 @@
-<html lang="en">
-
-<head>
-    <meta charset="utf-8" />
-    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-    <title>KSP Crime Intelligence Platform</title>
-    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap"
-        rel="stylesheet" />
-    <link href="https://fonts.googleapis.com" rel="preconnect" />
-    <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect" />
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&amp;display=swap"
-        rel="stylesheet" />
-    <!-- Alpine.js for Flawless Runtime Localization -->
-    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
-    <script id="tailwind-config">
-        tailwind.config = {
-            darkMode: "class",
-            theme: {
-                extend: {
-                    "colors": {
-                        "page-bg": "#FAF9F5",
-                        "panel-bg": "#F0EFEB",
-                        "soft-card": "#E9E8E4",
-                        "soft-card-2": "#F4F3EF",
-                        "text": "#1B1B1B",
-                        "muted": "#8C8880",
-                        "muted-light": "#BDBAB2",
-                        "line": "#D9D7D0",
-                        "black": "#181818",
-                        "deep-black": "#151515",
-                        "white-card": "#FFFDF8",
-                        "white-soft": "#FAF9F5"
-                    },
-                    "borderRadius": {
-                        "DEFAULT": "0.125rem",
-                        "lg": "0.25rem",
-                        "xl": "0.5rem",
-                        "full": "0.75rem",
-                        "3xl": "2rem",
-                        "4xl": "3rem"
-                    },
-                    "spacing": {
-                        "gutter": "24px",
-                        "unit": "4px",
-                        "sm": "16px",
-                        "md": "32px",
-                        "xl": "128px",
-                        "lg": "64px",
-                        "margin": "40px",
-                        "xs": "8px",
-                        "section": "160px"
-                    },
-                    "fontFamily": {
-                        "label": ["Helvetica", "Arial", "sans-serif"],
-                        "body-lg": ["Helvetica", "Arial", "sans-serif"],
-                        "display": ["Helvetica", "Arial", "sans-serif"],
-                        "h2": ["Helvetica", "Arial", "sans-serif"],
-                        "h1": ["Helvetica", "Arial", "sans-serif"],
-                        "h3": ["Helvetica", "Arial", "sans-serif"],
-                        "body-md": ["Helvetica", "Arial", "sans-serif"]
-                    },
-                    "fontSize": {
-                        "label": ["12px", { "lineHeight": "1", "letterSpacing": "0.05em", "fontWeight": "600" }],
-                        "body-lg": ["18px", { "lineHeight": "1.6", "letterSpacing": "0", "fontWeight": "400" }],
-                        "display": ["82px", { "lineHeight": "1.05", "letterSpacing": "-0.04em", "fontWeight": "700" }],
-                        "h2": ["32px", { "lineHeight": "1.2", "letterSpacing": "-0.02em", "fontWeight": "600" }],
-                        "h1": ["48px", { "lineHeight": "1.1", "letterSpacing": "-0.03em", "fontWeight": "700" }],
-                        "h3": ["24px", { "lineHeight": "1.3", "letterSpacing": "-0.01em", "fontWeight": "600" }],
-                        "body-md": ["15px", { "lineHeight": "1.6", "letterSpacing": "0", "fontWeight": "400" }]
-                    }
-                },
-            },
-        }
-    </script>
-    <style>
-        body {
-            background-color: theme('colors.page-bg');
-            transition: font-size 0.3s ease;
-            top: 0px !important;
-        }
-
-        .text-balance {
-            text-wrap: balance;
-        }
-
-        .scrollbar-hide::-webkit-scrollbar {
-            display: none;
-        }
-
-        .scrollbar-hide {
-            -ms-overflow-style: none;
-            scrollbar-width: none;
-        }
-    </style>
-</head>
-
-<body class="text-text font-body-lg min-h-screen antialiased selection:bg-black selection:text-white bg-page-bg"
-    x-data="{ isKannada: false }">
-
-    <!-- Top Navigation Assembly -->
+// Auto-generated from landing.html — do not edit manually
+// Run generate_files.py to regenerate
+const landingHTML = `<!-- Top Navigation Assembly -->
     <header class="relative z-50 shadow-md bg-white border-b border-[#D9D7D0]">
 
         <!-- Upper Utility Strip Overhaul (Solid Black) -->
@@ -178,7 +79,7 @@
                 Authorized Personnel Access Only. Centralized dashboard for case management, link analysis, and live
                 tactical intelligence.</p>
 
-            <a href="/dashboard"
+            <a href="/login"
                 class="group flex items-center gap-3 bg-black text-white px-8 py-4 rounded-full font-label text-sm font-bold uppercase tracking-widest hover:bg-text transition-colors shadow-lg shadow-black/20 hover:scale-105 transform duration-300">
                 <span
                     x-text="isKannada ? 'ಇಂಟೆಲಿಜೆನ್ಸ್ ಡ್ಯಾಶ್‌ಬೋರ್ಡ್‌ಗೆ ಲಾಗಿನ್ ಮಾಡಿ' : 'LOGIN TO INTELLIGENCE DASHBOARD'">LOGIN
@@ -760,9 +661,7 @@
 
             // Base size is 100%, each level adds/subtracts 10%
             const newSize = 100 + (currentFontSizeLevel * 10);
-            document.documentElement.style.fontSize = `${newSize}%`;
+            document.documentElement.style.fontSize = \`\${newSize}%\`;
         }
-    </script>
-</body>
-
-</html>
+    </script>`;
+export default landingHTML;
