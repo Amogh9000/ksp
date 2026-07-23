@@ -1,0 +1,6 @@
+UnitTypeID,UnitTypeName,CityDistState,Hierarchy,Active
+1,Police Station,City,4,True
+2,Circle Office,District,3,True
+3,Sub-Division,District,2,True
+4,District HQ,District,1,True
+5,State HQ,State,0,True

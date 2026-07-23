@@ -1,0 +1,222 @@
+[
+    {
+        "fir_id": "FIR-2023-BLR-001",
+        "district": "Bengaluru Urban",
+        "police_station": "Koramangala",
+        "crime_type": "Robbery",
+        "date_filed": "2023-04-12",
+        "narrative": "Complainant states that while returning home from work at 11:30 PM near Sony World Signal, two unidentified men on a black motorcycle without a license plate intercepted him. They threatened him with a pocket knife and stole his wallet containing Rs. 4,500 in cash, PAN card, and an iPhone 13. Suspects fled towards Ejipura.",
+        "status": "Under Investigation",
+        "officer_id": "OFF-1042"
+    },
+    {
+        "fir_id": "FIR-2023-MYS-014",
+        "district": "Mysuru",
+        "police_station": "Saraswathipuram",
+        "crime_type": "Chain-Snatching",
+        "date_filed": "2023-06-05",
+        "narrative": "Victim, Mrs. Lakshmi, was walking near Kamakshi Hospital road at 6:15 AM for her morning walk. A lone rider wearing a full-face helmet on a red scooter approached from behind and snatched her 30-gram gold mangalsutra. Victim sustained minor abrasions on her neck. No CCTV footage available at the exact spot.",
+        "status": "Open",
+        "officer_id": "OFF-2199"
+    },
+    {
+        "fir_id": "FIR-2023-MAN-042",
+        "district": "Mangaluru",
+        "police_station": "Kadri",
+        "crime_type": "Cyber Fraud",
+        "date_filed": "2023-08-19",
+        "narrative": "Complainant reported receiving a WhatsApp call from an unknown number claiming to be a FedEx customs officer. The caller stated a parcel containing illegal passports was intercepted in the complainant's name. Complainant was coerced into transferring Rs. 1,25,000 to a provided UPI ID to 'clear his name'.",
+        "status": "Under Investigation",
+        "officer_id": "OFF-3011"
+    },
+    {
+        "fir_id": "FIR-2023-BLR-088",
+        "district": "Bengaluru Urban",
+        "police_station": "Indiranagar",
+        "crime_type": "Assault",
+        "date_filed": "2023-09-22",
+        "narrative": "Altercation reported outside a pub on 100 Feet Road at 1:00 AM. A dispute over a parking spot escalated, resulting in the accused striking the complainant repeatedly with a heavy blunt object, suspected to be a steering lock. Complainant suffered a fractured collarbone. Accused was detained at the scene by patrolling units.",
+        "status": "Charge Sheet Filed",
+        "officer_id": "OFF-1090"
+    },
+    {
+        "fir_id": "FIR-2023-BLR-102",
+        "district": "Bengaluru Urban",
+        "police_station": "Whitefield",
+        "crime_type": "Cyber Fraud",
+        "date_filed": "2023-11-03",
+        "narrative": "Victim clicked on a link received via SMS regarding unpaid BESCOM electricity bills. The link redirected to a fraudulent payment gateway where the victim entered their debit card details and OTP. Rs. 45,000 was deducted immediately. The IP address of the gateway traces back to a server in West Bengal.",
+        "status": "Open",
+        "officer_id": "OFF-1105"
+    },
+    {
+        "fir_id": "FIR-2023-MYS-055",
+        "district": "Mysuru",
+        "police_station": "Vijayanagar",
+        "crime_type": "Robbery",
+        "date_filed": "2023-12-15",
+        "narrative": "House break-in reported at an independent residence. Owners were away in Hassan for a wedding. Perpetrators broke the backdoor padlock and disabled the main power switch. Stolen items include 150 grams of gold jewelry and Rs. 50,000 cash from the bedroom safe. Fingerprints lifted from the safe handle.",
+        "status": "Under Investigation",
+        "officer_id": "OFF-2201"
+    },
+    {
+        "fir_id": "FIR-2023-MAN-077",
+        "district": "Mangaluru",
+        "police_station": "Panambur",
+        "crime_type": "Assault",
+        "date_filed": "2023-12-30",
+        "narrative": "Violent clash between two groups of local fishermen at the harbor over territory disputes. Several individuals used wooden oars and fishing hooks as weapons. Four individuals were admitted to Wenlock Hospital with severe lacerations. Statements recorded, and three primary instigators have been identified.",
+        "status": "Under Investigation",
+        "officer_id": "OFF-3055"
+    },
+    {
+        "fir_id": "FIR-2024-BLR-012",
+        "district": "Bengaluru Urban",
+        "police_station": "HSR Layout",
+        "crime_type": "Chain-Snatching",
+        "date_filed": "2024-01-14",
+        "narrative": "Two men on a silver Bajaj Pulsar targeted a 60-year-old woman waiting at a bus stop in Sector 2. Pillion rider snatched her gold chain weighing approximately 40 grams. The sudden force caused the victim to fall, sustaining a head injury. CCTV from a nearby bakery captured the bike, but the license plate was obscured with mud.",
+        "status": "Open",
+        "officer_id": "OFF-1042"
+    },
+    {
+        "fir_id": "FIR-2024-MYS-008",
+        "district": "Mysuru",
+        "police_station": "Devaraja",
+        "crime_type": "Cyber Fraud",
+        "date_filed": "2024-02-10",
+        "narrative": "Complainant, a local merchant, was scammed via a fake QR code payment screenshot. The accused purchased goods worth Rs. 18,000 and showed a fabricated success screen on a spoofed UPI app. The merchant realized the fraud during evening reconciliation. Mobile number used by the accused is currently switched off.",
+        "status": "Closed",
+        "officer_id": "OFF-2199"
+    },
+    {
+        "fir_id": "FIR-2024-MAN-019",
+        "district": "Mangaluru",
+        "police_station": "Ullal",
+        "crime_type": "Robbery",
+        "date_filed": "2024-03-05",
+        "narrative": "A lone petrol pump attendant was held at gunpoint by three masked men in a Maruti Omni van at 2:30 AM. The suspects forced the attendant to hand over the night's cash collection of Rs. 85,000. They also stole the attendant's mobile phone before speeding off towards the Kerala border.",
+        "status": "Under Investigation",
+        "officer_id": "OFF-3102"
+    },
+    {
+        "fir_id": "FIR-2024-BLR-044",
+        "district": "Bengaluru Urban",
+        "police_station": "Madiwala",
+        "crime_type": "Assault",
+        "date_filed": "2024-03-18",
+        "narrative": "Road rage incident near Silk Board junction. A minor fender-bender resulted in the driver of an SUV stepping out and physically assaulting the driver of a sedan. The accused punched the victim multiple times through the open window, causing a broken nose and dental damage. Video evidence provided by a bystander.",
+        "status": "Charge Sheet Filed",
+        "officer_id": "OFF-1090"
+    },
+    {
+        "fir_id": "FIR-2024-BLR-065",
+        "district": "Bengaluru Urban",
+        "police_station": "Jayanagar",
+        "crime_type": "Cyber Fraud",
+        "date_filed": "2024-04-02",
+        "narrative": "Victim invested Rs. 5,00,000 into a fraudulent cryptocurrency trading platform recommended by a 'friend' met on Telegram. The platform displayed fabricated high returns but locked the victim's account when a withdrawal was requested, demanding an additional 30% 'tax fee'. Telegram account of the suspect has been deleted.",
+        "status": "Open",
+        "officer_id": "OFF-1122"
+    },
+    {
+        "fir_id": "FIR-2024-MYS-033",
+        "district": "Mysuru",
+        "police_station": "Kuvempunagar",
+        "crime_type": "Chain-Snatching",
+        "date_filed": "2024-04-20",
+        "narrative": "Incident occurred near a local park at dusk. Suspect approached the victim on foot under the pretext of asking for directions. He suddenly grabbed the victim's gold chain. A brief struggle ensued, resulting in the chain breaking. Suspect fled with half the chain. Eyewitness describes the suspect as in his 20s, wearing a blue hoodie.",
+        "status": "Under Investigation",
+        "officer_id": "OFF-2201"
+    },
+    {
+        "fir_id": "FIR-2024-MAN-038",
+        "district": "Mangaluru",
+        "police_station": "Barke",
+        "crime_type": "Cyber Fraud",
+        "date_filed": "2024-05-11",
+        "narrative": "Complainant fell victim to a 'part-time job' scam on WhatsApp. Initially, she was paid small amounts for 'liking' YouTube videos. Later, she was added to a VIP Telegram group and tricked into transferring Rs. 3,50,000 for 'pre-paid tasks' with the promise of higher commissions. Funds trace to multiple shell bank accounts.",
+        "status": "Open",
+        "officer_id": "OFF-3011"
+    },
+    {
+        "fir_id": "FIR-2024-BLR-091",
+        "district": "Bengaluru Urban",
+        "police_station": "Electronic City",
+        "crime_type": "Robbery",
+        "date_filed": "2024-05-28",
+        "narrative": "An IT employee was mugged while waiting for a company cab at 10:00 PM near Phase 1 toll plaza. Three men approached in an auto-rickshaw, threatened him with machetes (long swords), and forced him to transfer Rs. 40,000 via GPay to a merchant account. They also took his laptop bag. Digital footprint of the transaction is being traced.",
+        "status": "Under Investigation",
+        "officer_id": "OFF-1042"
+    },
+    {
+        "fir_id": "FIR-2023-BLR-150",
+        "district": "Bengaluru Urban",
+        "police_station": "Yelahanka",
+        "crime_type": "Chain-Snatching",
+        "date_filed": "2023-07-16",
+        "narrative": "Pillion rider on a Yamaha RX100 snatched a gold necklace from a woman buying vegetables at a street market. The heavy crowd prevented an immediate chase. The vehicle was spotted on a traffic camera 2 km away, but the riders were wearing masks. Modus operandi matches recent incidents in the neighboring jurisdiction.",
+        "status": "Open",
+        "officer_id": "OFF-1105"
+    },
+    {
+        "fir_id": "FIR-2024-MYS-047",
+        "district": "Mysuru",
+        "police_station": "Nazarbad",
+        "crime_type": "Assault",
+        "date_filed": "2024-06-03",
+        "narrative": "Domestic dispute escalated into physical violence. The accused, intoxicated, assaulted his brother-in-law with a glass bottle over a property dispute. Victim sustained deep cuts on the left arm and forehead. Neighbors intervened and called emergency services. Accused arrested on site.",
+        "status": "Closed",
+        "officer_id": "OFF-2199"
+    },
+    {
+        "fir_id": "FIR-2023-MAN-112",
+        "district": "Mangaluru",
+        "police_station": "Surathkal",
+        "crime_type": "Chain-Snatching",
+        "date_filed": "2023-10-25",
+        "narrative": "Victim was returning from a temple at 7:30 PM. Two individuals on a scooter without headlights snatched her 20-gram gold chain. The victim noted the scooter had a distinctive yellow sticker on the front mudguard. Patrol units have been alerted to look out for the specific vehicle modification.",
+        "status": "Under Investigation",
+        "officer_id": "OFF-3102"
+    },
+    {
+        "fir_id": "FIR-2024-BLR-114",
+        "district": "Bengaluru Urban",
+        "police_station": "Banashankari",
+        "crime_type": "Assault",
+        "date_filed": "2024-06-15",
+        "narrative": "A confrontation between a tenant and a landlord regarding delayed rent payments turned violent. The landlord allegedly hired two local thugs to evict the tenant. The thugs physically assaulted the tenant, causing bruised ribs. An audio recording of the threats prior to the assault has been submitted as evidence.",
+        "status": "Charge Sheet Filed",
+        "officer_id": "OFF-1122"
+    },
+    {
+        "fir_id": "FIR-2024-MYS-062",
+        "district": "Mysuru",
+        "police_station": "Mandi",
+        "crime_type": "Robbery",
+        "date_filed": "2024-07-01",
+        "narrative": "A local jewelry shop was targeted during lunch hours. Four masked men entered the premises, incapacitated the security guard with pepper spray, and smashed the display cases with hammers. They looted assorted gold ornaments worth approximately Rs. 15,00,000. The entire incident was captured on high-definition interior CCTV.",
+        "status": "Under Investigation",
+        "officer_id": "OFF-2201"
+    },
+    {
+        "fir_id": "FIR-2023-MAN-901",
+        "district": "Mangaluru",
+        "police_station": "Urwa",
+        "crime_type": "Cyber Fraud",
+        "date_filed": "2023-08-20",
+        "narrative": "A phone scam was reported where an individual pretending to be a FedEx customs agent claimed that a parcel with illegal passports was seized in the victim's name. The victim was frightened into transferring Rs. 1,25,000 via UPI to prevent legal consequences.",
+        "status": "Open",
+        "officer_id": "OFF-3022"
+    },
+    {
+        "fir_id": "FIR-2024-BLR-902",
+        "district": "Bengaluru Urban",
+        "police_station": "Madivala",
+        "crime_type": "Chain-Snatching",
+        "date_filed": "2024-01-15",
+        "narrative": "An elderly woman (60 years old) was targeted at a Sector 2 bus stop by two individuals on a silver Pulsar motorcycle. The pillion rider forcibly grabbed her gold chain (approx 40g), causing her to fall and hurt her head. The vehicle plate was covered in mud.",
+        "status": "Open",
+        "officer_id": "OFF-1088"
+    }
+]
