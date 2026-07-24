@@ -7,12 +7,13 @@ from fastapi import APIRouter, HTTPException
 from typing import Optional
 from pydantic import BaseModel
 
-router = APIRouter()
+router = APIRouter(prefix="/maps", tags=["Maps & Geospatial"])
 
-CSV_DIR = r"c:\Users\Admin\OneDrive\Desktop\KSP\catalyst_csv_bundle"
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+CSV_DIR = os.path.join(BASE_DIR, "catalyst_csv_bundle")
 case_master_path = os.path.join(CSV_DIR, "CaseMaster.csv")
 subhead_path = os.path.join(CSV_DIR, "CrimeSubHead.csv")
-stations_json_path = r"c:\Users\Admin\OneDrive\Desktop\KSP\backend\geocoded_stations.json"
+stations_json_path = os.path.join(BASE_DIR, "geocoded_stations.json")
 
 # In-memory stores
 crime_df = None

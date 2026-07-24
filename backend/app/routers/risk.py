@@ -4,9 +4,10 @@ import numpy as np
 from fastapi import APIRouter, HTTPException
 from sklearn.ensemble import RandomForestClassifier
 
-router = APIRouter()
+router = APIRouter(prefix="/risk", tags=["Risk Profiler"])
 
-CSV_DIR = r"c:\Users\Admin\OneDrive\Desktop\KSP\catalyst_csv_bundle"
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+CSV_DIR = os.path.join(BASE_DIR, "catalyst_csv_bundle")
 accused_path = os.path.join(CSV_DIR, "Accused.csv")
 case_master_path = os.path.join(CSV_DIR, "CaseMaster.csv")
 

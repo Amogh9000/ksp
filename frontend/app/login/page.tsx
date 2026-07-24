@@ -1,72 +1,22 @@
 'use client';
 
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
+import { useRouter } from 'next/router';
 import Link from 'next/link';
-
-// ── Type shim for the Catalyst SDK global ───────────────────────────────────
-declare global {
-  interface Window {
-    catalyst?: {
-      auth: {
-        signIn: (elementId: string, config?: Record<string, unknown>) => void;
-      };
-    };
-  }
-}
-
-/** Dynamically injects a <script> tag and resolves when it has loaded. */
-function loadScript(src: string): Promise<void> {
-  return new Promise((resolve, reject) => {
-    if (document.querySelector(`script[src="${src}"]`)) {
-      resolve();
-      return;
-    }
-    const el = document.createElement('script');
-    el.src = src;
-    el.async = false; // keep insertion order
-    el.onload = () => resolve();
-    el.onerror = () => reject(new Error(`[KSP Auth] Failed to load: ${src}`));
-    document.head.appendChild(el);
-  });
-}
 
 export default function LoginPage() {
   const [isKannada, setIsKannada] = useState(false);
-  const [authError, setAuthError] = useState(false);
+  const [badgeNo, setBadgeNo] = useState('KSP-80492');
+  const [password, setPassword] = useState('••••••••••••');
+  const [isLoading, setIsLoading] = useState(false);
 
-  useEffect(() => {
-    (async () => {
-      try {
-        // 1. Load the Catalyst Web SDK from Zoho CDN
-        await loadScript(
-          'https://static.zohocdn.com/catalyst/sdk/js/4.5.0/catalystWebSDK.js'
-        );
-        // 2. Load the Catalyst environment init script (served by Catalyst hosting)
-        await loadScript('/__catalyst/sdk/init.js');
-
-        // 3. Mount the auth iFrame into our container div
-        if (window.catalyst?.auth) {
-          window.catalyst.auth.signIn('loginDivElementId', {
-            // After successful login, redirect to the dashboard
-            service_url: '/app/dashboard/',
-            // Custom CSS for the embedded login form
-            css_url: '/app/css/embeddediframe.css',
-            // Load forgot-password inside our iFrame shell (same div by default)
-            is_customize_forgot_password: true,
-            forgot_password_css_url: '/app/css/reset_password.css',
-          });
-        } else {
-          // SDK loaded but catalyst global not set — likely running outside Catalyst hosting
-          console.warn('[KSP Auth] Catalyst SDK loaded but `window.catalyst` is undefined. ' +
-            'Auth iFrame only works when the app is hosted on Zoho Catalyst.');
-          setAuthError(true);
-        }
-      } catch (err) {
-        console.error(err);
-        setAuthError(true);
-      }
-    })();
-  }, []);
+  const handleLogin = (e: React.FormEvent) => {
+    e.preventDefault();
+    setIsLoading(true);
+    setTimeout(() => {
+      window.location.href = '/dashboard';
+    }, 400);
+  };
 
   return (
     <div className="min-h-screen bg-[var(--color-page-bg)] flex flex-col items-center justify-center relative p-6">
@@ -88,17 +38,13 @@ export default function LoginPage() {
         {/* Accent bar + label */}
         <div className="absolute top-0 left-0 w-full h-[4px] bg-black" />
         <div className="absolute top-4 right-4 text-[10px] font-mono text-[var(--color-muted-light)]">
-          AUTH_SEC_1
+          DEV_BYPASS_ENABLED
         </div>
 
         {/* ── Branding header ────────────────────────────────────────────── */}
         <div className="flex flex-col items-center mb-8 mt-4">
-          <div className="w-16 h-16 mb-5">
-            <img
-              src="/app/image copy.png"
-              alt="Karnataka State Police Logo"
-              className="w-full h-full object-contain drop-shadow-sm opacity-90"
-            />
+          <div className="w-14 h-14 mb-5 rounded-full bg-black text-white flex items-center justify-center font-bold text-base shadow-sm">
+            KSP
           </div>
           <h1 className="text-2xl font-bold text-[var(--color-ksp-text)] text-center tracking-tight mb-1">
             {isKannada ? 'ಸುರಕ್ಷಿತ ಪ್ರವೇಶ ಗೇಟ್' : 'SECURE ACCESS GATE'}
@@ -111,24 +57,59 @@ export default function LoginPage() {
         {/* ── Divider ────────────────────────────────────────────────────── */}
         <div className="border-t border-[var(--color-line)] mb-6" />
 
-        {/* ── Catalyst iFrame Mount Point ─────────────────────────────────
-            The Catalyst SDK renders its login form (email + password + submit)
-            as an iFrame inside this div. Our CSS at /css/embeddediframe.css
-            styles it to match the KSP shell.
-        ─────────────────────────────────────────────────────────────────── */}
-        <div id="loginDivElementId" className="w-full min-h-[180px]" />
-
-        {/* ── Dev-mode fallback (only shown outside Catalyst hosting) ────── */}
-        {authError && (
-          <div className="mt-4 p-4 border border-amber-300 bg-amber-50 text-amber-800 text-[12px] font-mono rounded-sm">
-            <p className="font-bold uppercase tracking-wider mb-1">⚠ Local Dev Notice</p>
-            <p>
-              The Catalyst auth iFrame only initialises when the app is served from
-              Zoho Catalyst Web Hosting. To test locally, deploy first or use the
-              Catalyst local emulator.
-            </p>
+        {/* ── Interactive Dev Login Form ──────────────────────────────────── */}
+        <form onSubmit={handleLogin} className="flex flex-col gap-4">
+          <div>
+            <label className="block text-[11px] font-mono uppercase tracking-wider font-bold text-[var(--color-ksp-text)] mb-1">
+              {isKannada ? 'ಅಧಿಕಾರಿ ಬ್ಯಾಡ್ಜ್ ಸಂಖ್ಯಾ / ಐಡಿ' : 'OFFICER BADGE / ID'}
+            </label>
+            <input
+              type="text"
+              value={badgeNo}
+              onChange={(e) => setBadgeNo(e.target.value)}
+              className="w-full px-3 py-2 border border-[var(--color-line)] bg-white rounded-sm text-sm text-[var(--color-ksp-text)] font-mono focus:outline-none focus:border-black"
+              required
+            />
           </div>
-        )}
+
+          <div>
+            <label className="block text-[11px] font-mono uppercase tracking-wider font-bold text-[var(--color-ksp-text)] mb-1">
+              {isKannada ? 'ಪಾಸ್ವರ್ಡ್' : 'PASSWORD'}
+            </label>
+            <input
+              type="password"
+              value={password}
+              onChange={(e) => setPassword(e.target.value)}
+              className="w-full px-3 py-2 border border-[var(--color-line)] bg-white rounded-sm text-sm text-[var(--color-ksp-text)] font-mono focus:outline-none focus:border-black"
+              required
+            />
+          </div>
+
+          <button
+            type="submit"
+            disabled={isLoading}
+            className="mt-2 w-full py-3 bg-black text-white rounded-sm text-xs font-bold font-mono uppercase tracking-widest hover:bg-[var(--color-ksp-text)] transition-colors flex items-center justify-center gap-2 shadow-md"
+          >
+            {isLoading ? (
+              <span>{isKannada ? 'ಪರಿಶೀಲಿಸಲಾಗುತ್ತಿದೆ...' : 'AUTHENTICATING...'}</span>
+            ) : (
+              <>
+                <span>{isKannada ? 'ಲಾಗಿನ್ ಮಾಡಿ (ಪ್ರವೇಶಿಸಿ)' : 'AUTHENTICATE & ENTER'}</span>
+                <span className="material-symbols-outlined text-[16px]">arrow_forward</span>
+              </>
+            )}
+          </button>
+        </form>
+
+        <div className="mt-4 p-3 border border-emerald-300 bg-emerald-50 text-emerald-900 text-[11px] font-mono rounded-sm flex items-center justify-between">
+          <span>⚡ Dev Mode Bypass Active</span>
+          <Link
+            href="/dashboard"
+            className="px-2 py-1 bg-emerald-700 text-white rounded text-[10px] font-bold uppercase tracking-wider hover:bg-emerald-800 transition-colors"
+          >
+            Direct RAG →
+          </Link>
+        </div>
 
         {/* ── Footer strip ───────────────────────────────────────────────── */}
         <div className="mt-8 border-t border-[var(--color-line)] pt-4 flex justify-between items-center text-[10px] font-mono text-[var(--color-muted-light)]">

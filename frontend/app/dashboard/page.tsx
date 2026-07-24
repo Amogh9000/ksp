@@ -17,7 +17,9 @@ export default function DashboardPage() {
       {/* Header Bar */}
       <header className="fixed top-0 left-0 right-0 z-50 h-[70px] bg-white border-b border-[var(--color-line)] flex items-center justify-between px-6 shadow-sm">
         <div className="flex items-center gap-3">
-          <img src="/app/image copy.png" alt="KSP Crest" className="w-10 h-10 object-contain drop-shadow-sm" />
+          <div className="w-8 h-8 rounded-full bg-black text-white flex items-center justify-center font-bold text-xs shadow-sm shrink-0">
+            KSP
+          </div>
           <div className="flex flex-col">
             <span className="font-bold text-[var(--color-ksp-text)] text-[14px] leading-tight tracking-tight uppercase">
               {isKannada ? 'ಗುಪ್ತಚರ ಕನ್ಸೋಲ್' : 'Intelligence Console'}

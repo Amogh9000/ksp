@@ -4,14 +4,15 @@ import pandas as pd
 import networkx as nx
 from fastapi import APIRouter, HTTPException
 
-router = APIRouter()
+router = APIRouter(prefix="/graph", tags=["Network Graph"])
 
-CSV_DIR = r"c:\Users\Admin\OneDrive\Desktop\KSP\catalyst_csv_bundle"
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+CSV_DIR = os.path.join(BASE_DIR, "catalyst_csv_bundle")
 accused_path = os.path.join(CSV_DIR, "Accused.csv")
 case_master_path = os.path.join(CSV_DIR, "CaseMaster.csv")
 victim_path = os.path.join(CSV_DIR, "Victim.csv")
 subhead_path = os.path.join(CSV_DIR, "CrimeSubHead.csv")
-stations_path = r"c:\Users\Admin\OneDrive\Desktop\KSP\backend\geocoded_stations.json"
+stations_path = os.path.join(BASE_DIR, "geocoded_stations.json")
 
 # In-memory datasets
 df_accused = None
