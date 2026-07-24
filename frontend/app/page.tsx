@@ -24,9 +24,9 @@ export default function Home() {
         <div className="bg-[var(--color-deep-black)] text-white w-full py-2">
           <div className="max-w-[1728px] mx-auto px-10 flex justify-between items-center text-[11px] font-bold tracking-wider font-label uppercase">
             <div className="flex items-center gap-4">
-              <Link href="/login" className="hover:text-white/80 transition-colors text-white">
+              <a href="/app/login.html" className="hover:text-white/80 transition-colors text-white">
                 {isKannada ? 'ಲಾಗಿನ್' : 'SIGN IN'}
-              </Link>
+              </a>
               <div className="w-[1px] h-3 bg-white/30"></div>
               <button onClick={() => setIsKannada(!isKannada)} className="hover:text-white/80 transition-colors flex items-center gap-1 text-white">
                 <span className="material-symbols-outlined text-[14px]">translate</span>
@@ -45,13 +45,13 @@ export default function Home() {
         <div className="bg-white w-full py-2 relative h-[110px]">
           <div className="max-w-[1728px] h-full mx-auto px-10 flex items-center justify-between relative">
             <div className="h-[90px] flex items-center shrink-0 relative z-10">
-              <img src="/image.png" alt="Chief Minister" className="h-full w-auto object-contain" />
+              <img src="/app/image.png" alt="Chief Minister" className="h-full w-auto object-contain" />
             </div>
 
             <div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 flex items-center justify-center pointer-events-none w-full z-10">
               <div className="flex items-center gap-4 pointer-events-auto">
                 <div className="w-[72px] h-[72px] shrink-0">
-                  <img src="/image copy.png" alt="KSP Crest" className="w-full h-full object-contain drop-shadow-sm" />
+                  <img src="/app/image copy.png" alt="KSP Crest" className="w-full h-full object-contain drop-shadow-sm" />
                 </div>
                 <div className="flex flex-col text-left hidden xl:flex">
                   <h1 className="text-[28px] font-bold text-[var(--color-ksp-text)] leading-tight tracking-tight">
@@ -65,7 +65,7 @@ export default function Home() {
             </div>
 
             <div className="h-[90px] flex items-center shrink-0 relative z-10 hidden md:flex">
-              <img src="/image copy 2.png" alt="Home Minister" className="h-full w-auto object-contain" />
+              <img src="/app/image copy 2.png" alt="Home Minister" className="h-full w-auto object-contain" />
             </div>
           </div>
         </div>
@@ -82,10 +82,10 @@ export default function Home() {
             {isKannada ? 'ಅಧಿಕೃತ ಸಿಬ್ಬಂದಿಗೆ ಮಾತ್ರ ಪ್ರವೇಶ. ಪ್ರಕರಣ ನಿರ್ವಹಣೆ, ಲಿಂಕ್ ವಿಶ್ಲೇಷಣೆ ಮತ್ತು ಲೈವ್ ಯುದ್ಧತಂತ್ರದ ಗುಪ್ತಚರಕ್ಕಾಗಿ ಕೇಂದ್ರೀಕೃತ ಡ್ಯಾಶ್ಬೋರ್ಡ್.' : 'Authorized Personnel Access Only. Centralized dashboard for case management, link analysis, and live tactical intelligence.'}
           </p>
 
-          <Link href="/login" className="group flex items-center gap-3 bg-black text-white px-8 py-4 rounded-full text-sm font-bold uppercase tracking-widest hover:bg-[var(--color-ksp-text)] transition-colors shadow-lg shadow-black/20 hover:scale-105 transform duration-300">
+          <a href="/app/login.html" className="group flex items-center gap-3 bg-black text-white px-8 py-4 rounded-full text-sm font-bold uppercase tracking-widest hover:bg-[var(--color-ksp-text)] transition-colors shadow-lg shadow-black/20 hover:scale-105 transform duration-300">
             <span>{isKannada ? 'ಇಂಟೆಲಿಜೆನ್ಸ್ ಡ್ಯಾಶ್ಬೋರ್ಡ್ಗೆ ಲಾಗಿನ್ ಮಾಡಿ' : 'LOGIN TO INTELLIGENCE DASHBOARD'}</span>
             <span className="material-symbols-outlined group-hover:translate-x-1 transition-transform">arrow_forward</span>
-          </Link>
+          </a>
 
           {/* Embedded Global Search */}
           <div className="w-full max-w-[800px] mt-16 relative z-10">
@@ -522,7 +522,7 @@ export default function Home() {
             <div className="flex flex-col gap-8">
               <div className="flex items-center gap-4">
                 <div className="w-12 h-12 rounded-full border border-[var(--color-line)]/20 flex items-center justify-center shrink-0 bg-[#F0EFEB]">
-                  <img src="/image copy.png" alt="Govt Emblem" className="w-8 h-8 object-contain" />
+                  <img src="/app/image copy.png" alt="Govt Emblem" className="w-8 h-8 object-contain" />
                 </div>
                 <h3 className="font-bold text-lg leading-tight" dangerouslySetInnerHTML={{ __html: isKannada ? 'ಕರ್ನಾಟಕ<br/>ರಾಜ್ಯ ಪೊಲೀಸ್' : 'Karnataka<br/>State Police' }}></h3>
               </div>
@@ -574,3 +574,5 @@ export default function Home() {
     </>
   );
 }
+
+
