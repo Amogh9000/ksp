@@ -1,0 +1,1766 @@
+{
+    "1": {
+        "name": "CONTROL ROOM BENGALURU Police Station",
+        "lat": 13.056,
+        "lng": 77.626,
+        "division": "CENTRAL DIVISION",
+        "type": "Law & Order",
+        "mobile": "080-22942222",
+        "email": "bcp.control@ksp.gov.in"
+    },
+    "2": {
+        "name": "CYBER CRIME Police Station",
+        "lat": 12.982,
+        "lng": 77.594,
+        "division": "CENTRAL DIVISION",
+        "type": "CEN (Cyber/Narcotics)",
+        "mobile": "9480801554",
+        "email": "sbcp@ksp.gov.in"
+    },
+    "3": {
+        "name": "CENTRAL CONTROL ROOM Police Station",
+        "lat": 13.03,
+        "lng": 77.626,
+        "division": "CENTRAL DIVISION",
+        "type": "Law & Order",
+        "mobile": "080-22942222",
+        "email": "bcp.control@ksp.gov.in"
+    },
+    "4": {
+        "name": "SESHADRIPURAM Police Station",
+        "lat": 12.9952,
+        "lng": 77.5822,
+        "division": "SESHADRIPURAM SUB-DIVISION",
+        "type": "Law & Order",
+        "mobile": "080-22942222",
+        "email": "bcp.control@ksp.gov.in"
+    },
+    "5": {
+        "name": "HIGH GROUND Police Station",
+        "lat": 12.9904,
+        "lng": 77.5849,
+        "division": "SESHADRIPURAM SUB-DIVISION",
+        "type": "Law & Order",
+        "mobile": "080-22942222",
+        "email": "bcp.control@ksp.gov.in"
+    },
+    "6": {
+        "name": "VYALIKAVAL Police Station",
+        "lat": 13.0053,
+        "lng": 77.5736,
+        "division": "SESHADRIPURAM SUB-DIVISION",
+        "type": "Law & Order",
+        "mobile": "080-22942222",
+        "email": "bcp.control@ksp.gov.in"
+    },
+    "7": {
+        "name": "SADASHIVA NAGAR Police Station",
+        "lat": 13.0098,
+        "lng": 77.5843,
+        "division": "SESHADRIPURAM SUB-DIVISION",
+        "type": "Law & Order",
+        "mobile": "080-22942222",
+        "email": "bcp.control@ksp.gov.in"
+    },
+    "8": {
+        "name": "CUBBON PARK Police Station",
+        "lat": 12.9807,
+        "lng": 77.6027,
+        "division": "CUBBON PARK SUB-DIVISION",
+        "type": "Law & Order",
+        "mobile": "080-22942222",
+        "email": "bcp.control@ksp.gov.in"
+    },
+    "9": {
+        "name": "ASHOKNAGAR Police Station",
+        "lat": 12.9747,
+        "lng": 77.6134,
+        "division": "CUBBON PARK SUB-DIVISION",
+        "type": "Law & Order",
+        "mobile": "080-22942222",
+        "email": "bcp.control@ksp.gov.in"
+    },
+    "10": {
+        "name": "VIVEKNAGAR Police Station",
+        "lat": 12.9566,
+        "lng": 77.6186,
+        "division": "CUBBON PARK SUB-DIVISION",
+        "type": "Law & Order",
+        "mobile": "080-22942222",
+        "email": "bcp.control@ksp.gov.in"
+    },
+    "11": {
+        "name": "VIDHANA SOUDHA Police Station",
+        "lat": 12.9812,
+        "lng": 77.5921,
+        "division": "CUBBON PARK SUB-DIVISION",
+        "type": "Law & Order",
+        "mobile": "080-22942222",
+        "email": "bcp.control@ksp.gov.in"
+    },
+    "12": {
+        "name": "HALASOOR GATE Police Station",
+        "lat": 12.969,
+        "lng": 77.5908,
+        "division": "HALASOOR GATE SUB-DIVISION",
+        "type": "Law & Order",
+        "mobile": "080-22942222",
+        "email": "bcp.control@ksp.gov.in"
+    },
+    "13": {
+        "name": "WILSON GARDEN Police Station",
+        "lat": 12.9547,
+        "lng": 77.6006,
+        "division": "HALASOOR GATE SUB-DIVISION",
+        "type": "Law & Order",
+        "mobile": "080-22942222",
+        "email": "bcp.control@ksp.gov.in"
+    },
+    "14": {
+        "name": "S.R NAGAR Police Station",
+        "lat": 12.964,
+        "lng": 77.598,
+        "division": "HALASOOR GATE SUB-DIVISION",
+        "type": "Law & Order",
+        "mobile": "080-22942222",
+        "email": "bcp.control@ksp.gov.in"
+    },
+    "15": {
+        "name": "S.J PARK Police Station",
+        "lat": 12.9649,
+        "lng": 77.5822,
+        "division": "HALASOOR GATE SUB-DIVISION",
+        "type": "Law & Order",
+        "mobile": "080-22942222",
+        "email": "bcp.control@ksp.gov.in"
+    },
+    "16": {
+        "name": "CEN  (CYBER ECONOMIC NARCOTICS Police Station",
+        "lat": 12.938,
+        "lng": 77.602,
+        "division": "HALASOOR GATE SUB-DIVISION",
+        "type": "CEN (Cyber/Narcotics)",
+        "mobile": "080-22942222",
+        "email": "bcp.control@ksp.gov.in"
+    },
+    "17": {
+        "name": "L.H Police Station",
+        "lat": 13.075,
+        "lng": 77.541,
+        "division": "HALASOOR GATE SUB-DIVISION",
+        "type": "Law & Order",
+        "mobile": "9480801132",
+        "email": "lhsecurity@ksp.gov.in"
+    },
+    "18": {
+        "name": "H/C SEC Police Station",
+        "lat": 13.089,
+        "lng": 77.596,
+        "division": "HALASOOR GATE SUB-DIVISION",
+        "type": "Law & Order",
+        "mobile": "080-22942222",
+        "email": "bcp.control@ksp.gov.in"
+    },
+    "19": {
+        "name": "CEN  (CYBER ECONOMIC Police Station",
+        "lat": 12.993,
+        "lng": 77.546,
+        "division": "EAST DIVISION",
+        "type": "CEN (Cyber/Narcotics)",
+        "mobile": "080-22942222",
+        "email": "bcp.control@ksp.gov.in"
+    },
+    "20": {
+        "name": "EAST CONTROL ROOM Police Station",
+        "lat": 12.896,
+        "lng": 77.641,
+        "division": "EAST DIVISION",
+        "type": "Law & Order",
+        "mobile": "080-22942222",
+        "email": "eastcontrolbcp@ksp.gov.in"
+    },
+    "21": {
+        "name": "HALASOOR Police Station",
+        "lat": 12.9769,
+        "lng": 77.627,
+        "division": "HALASOOR SUB-DIVISION",
+        "type": "Law & Order",
+        "mobile": "080-22942222",
+        "email": "bcp.control@ksp.gov.in"
+    },
+    "22": {
+        "name": "INDIRANAGAR Police Station",
+        "lat": 12.9814,
+        "lng": 77.6438,
+        "division": "HALASOOR SUB-DIVISION",
+        "type": "Law & Order",
+        "mobile": "080-22942222",
+        "email": "bcp.control@ksp.gov.in"
+    },
+    "23": {
+        "name": "BYAPPANAHALLI Police Station",
+        "lat": 12.9963,
+        "lng": 77.6527,
+        "division": "HALASOOR SUB-DIVISION",
+        "type": "Law & Order",
+        "mobile": "080-22942222",
+        "email": "bcp.control@ksp.gov.in"
+    },
+    "24": {
+        "name": "J.B.NAGAR Police Station",
+        "lat": 12.9667,
+        "lng": 77.6581,
+        "division": "HALASOOR SUB-DIVISION",
+        "type": "Law & Order",
+        "mobile": "080-22942222",
+        "email": "bcp.control@ksp.gov.in"
+    },
+    "25": {
+        "name": "BHARATHINAGAR Police Station",
+        "lat": 12.9852,
+        "lng": 77.6062,
+        "division": "PULAKESHINAGAR  SUB-DIVISION",
+        "type": "Law & Order",
+        "mobile": "080-22942222",
+        "email": "bcp.control@ksp.gov.in"
+    },
+    "26": {
+        "name": "PULAKESHINAGAR Police Station",
+        "lat": 13.0008,
+        "lng": 77.6211,
+        "division": "PULAKESHINAGAR  SUB-DIVISION",
+        "type": "Law & Order",
+        "mobile": "080-22942222",
+        "email": "bcp.control@ksp.gov.in"
+    },
+    "27": {
+        "name": "SHIVAJINAGAR Police Station",
+        "lat": 12.9909,
+        "lng": 77.6066,
+        "division": "PULAKESHINAGAR  SUB-DIVISION",
+        "type": "Law & Order",
+        "mobile": "080-22942222",
+        "email": "bcp.control@ksp.gov.in"
+    },
+    "28": {
+        "name": "CEN  (CYBER ECONOMIC Police Station",
+        "lat": 12.993,
+        "lng": 77.546,
+        "division": "PULAKESHINAGAR  SUB-DIVISION",
+        "type": "CEN (Cyber/Narcotics)",
+        "mobile": "080-22942222",
+        "email": "bcp.control@ksp.gov.in"
+    },
+    "29": {
+        "name": "NARCOTIC) SHIVAJINAGAR Police Station",
+        "lat": 12.9939,
+        "lng": 77.6096,
+        "division": "PULAKESHINAGAR  SUB-DIVISION",
+        "type": "CEN (Cyber/Narcotics)",
+        "mobile": "9480801206",
+        "email": "cenpseastbcp@ksp.gov.in"
+    },
+    "30": {
+        "name": "COMMERCIAL STREET Police Station",
+        "lat": 12.9826,
+        "lng": 77.6071,
+        "division": "PULAKESHINAGAR  SUB-DIVISION",
+        "type": "Law & Order",
+        "mobile": "080-22942222",
+        "email": "bcp.control@ksp.gov.in"
+    },
+    "31": {
+        "name": "SHIVAJINAGAR  WOMEM Police Station",
+        "lat": 12.9894,
+        "lng": 77.6051,
+        "division": "PULAKESHINAGAR  SUB-DIVISION",
+        "type": "Law & Order",
+        "mobile": "9480801120",
+        "email": "hgatewbcp@ksp.gov.in"
+    },
+    "32": {
+        "name": "K.G.HALLI Police Station",
+        "lat": 13.021,
+        "lng": 77.622,
+        "division": "BANASWADI SUB-DIVISION",
+        "type": "Law & Order",
+        "mobile": "080-22942222",
+        "email": "bcp.control@ksp.gov.in"
+    },
+    "33": {
+        "name": "RAMAMURTHY NAGAR Police Station",
+        "lat": 13.0161,
+        "lng": 77.6811,
+        "division": "BANASWADI SUB-DIVISION",
+        "type": "Law & Order",
+        "mobile": "080-22942222",
+        "email": "bcp.control@ksp.gov.in"
+    },
+    "34": {
+        "name": "HENNURU Police Station",
+        "lat": 13.0382,
+        "lng": 77.6426,
+        "division": "BANASWADI SUB-DIVISION",
+        "type": "Law & Order",
+        "mobile": "080-22942222",
+        "email": "bcp.control@ksp.gov.in"
+    },
+    "35": {
+        "name": "BANASWADI Police Station",
+        "lat": 13.0142,
+        "lng": 77.6519,
+        "division": "BANASWADI SUB-DIVISION",
+        "type": "Law & Order",
+        "mobile": "080-22942222",
+        "email": "bcp.control@ksp.gov.in"
+    },
+    "36": {
+        "name": "D.J.HALLI Police Station",
+        "lat": 13.0091,
+        "lng": 77.6125,
+        "division": "BANASWADI SUB-DIVISION",
+        "type": "Law & Order",
+        "mobile": "080-22942222",
+        "email": "bcp.control@ksp.gov.in"
+    },
+    "37": {
+        "name": "GOVINDRAJPURA Police Station",
+        "lat": 12.976,
+        "lng": 77.533,
+        "division": "BANASWADI SUB-DIVISION",
+        "type": "Law & Order",
+        "mobile": "080-22942222",
+        "email": "bcp.control@ksp.gov.in"
+    },
+    "38": {
+        "name": "WEST CONTROL ROOM Police Station",
+        "lat": 13.081,
+        "lng": 77.543,
+        "division": "WEST DIVISION",
+        "type": "Law & Order",
+        "mobile": "080-22942222",
+        "email": "bcp.control@ksp.gov.in"
+    },
+    "39": {
+        "name": "UPPARPETE Police Station",
+        "lat": 12.9832,
+        "lng": 77.5774,
+        "division": "CHICKPETE  SUB-DIVISION",
+        "type": "Law & Order",
+        "mobile": "080-22942222",
+        "email": "bcp.control@ksp.gov.in"
+    },
+    "40": {
+        "name": "CITY MARKET Police Station",
+        "lat": 12.9658,
+        "lng": 77.5765,
+        "division": "CHICKPETE  SUB-DIVISION",
+        "type": "Law & Order",
+        "mobile": "080-22942222",
+        "email": "bcp.control@ksp.gov.in"
+    },
+    "41": {
+        "name": "KALASIPALYA Police Station",
+        "lat": 12.9617,
+        "lng": 77.5801,
+        "division": "CHICKPETE  SUB-DIVISION",
+        "type": "Law & Order",
+        "mobile": "080-22942222",
+        "email": "bcp.control@ksp.gov.in"
+    },
+    "42": {
+        "name": "COTTONPETE Police Station",
+        "lat": 12.9712,
+        "lng": 77.5714,
+        "division": "CHICKPETE  SUB-DIVISION",
+        "type": "Law & Order",
+        "mobile": "080-22942222",
+        "email": "bcp.control@ksp.gov.in"
+    },
+    "43": {
+        "name": "CHAMARAJAPETE Police Station",
+        "lat": 12.9611,
+        "lng": 77.5687,
+        "division": "CHICKPETE  SUB-DIVISION",
+        "type": "Law & Order",
+        "mobile": "9480801521",
+        "email": "cmpetbcp@ksp.gov.in"
+    },
+    "44": {
+        "name": "J.J.NAGAR Police Station",
+        "lat": 12.968,
+        "lng": 77.56,
+        "division": "KENGERI GATE SUB-DIVISION",
+        "type": "Law & Order",
+        "mobile": "080-22942222",
+        "email": "bcp.control@ksp.gov.in"
+    },
+    "45": {
+        "name": "BYATARAYANAPURA Police Station",
+        "lat": 12.954,
+        "lng": 77.545,
+        "division": "KENGERI GATE SUB-DIVISION",
+        "type": "Law & Order",
+        "mobile": "080-22942222",
+        "email": "bcp.control@ksp.gov.in"
+    },
+    "46": {
+        "name": "CHANDRA LAYOUT Police Station",
+        "lat": 12.9604,
+        "lng": 77.5299,
+        "division": "KENGERI GATE SUB-DIVISION",
+        "type": "Law & Order",
+        "mobile": "080-22942222",
+        "email": "bcp.control@ksp.gov.in"
+    },
+    "47": {
+        "name": "JNANABHARATHI Police Station",
+        "lat": 12.939,
+        "lng": 77.509,
+        "division": "KENGERI GATE SUB-DIVISION",
+        "type": "Law & Order",
+        "mobile": "080-22942222",
+        "email": "bcp.control@ksp.gov.in"
+    },
+    "48": {
+        "name": "KENGERI Police Station",
+        "lat": 12.9042,
+        "lng": 77.4872,
+        "division": "KENGERI GATE SUB-DIVISION",
+        "type": "Law & Order",
+        "mobile": "080-22942222",
+        "email": "bcp.control@ksp.gov.in"
+    },
+    "49": {
+        "name": "RAJARAJESHWARINAGARA Police Station",
+        "lat": 12.9334,
+        "lng": 77.5248,
+        "division": "KENGERI GATE SUB-DIVISION",
+        "type": "Law & Order",
+        "mobile": "080-22942222",
+        "email": "bcp.control@ksp.gov.in"
+    },
+    "50": {
+        "name": "ANNAPURNESHWARI NAGAR Police Station",
+        "lat": 12.965,
+        "lng": 77.508,
+        "division": "KENGERI GATE SUB-DIVISION",
+        "type": "Law & Order",
+        "mobile": "9480801715",
+        "email": "apnagarbcp@ksp.gov.in"
+    },
+    "51": {
+        "name": "VIJAYANAGAR Police Station",
+        "lat": 12.9734,
+        "lng": 77.5319,
+        "division": "VIJAYANAGAR SUB-DIVISION",
+        "type": "Law & Order",
+        "mobile": "080-22942222",
+        "email": "bcp.control@ksp.gov.in"
+    },
+    "52": {
+        "name": "MAGADI ROAD Police Station",
+        "lat": 12.9775,
+        "lng": 77.5543,
+        "division": "VIJAYANAGAR SUB-DIVISION",
+        "type": "Law & Order",
+        "mobile": "080-22942222",
+        "email": "bcp.control@ksp.gov.in"
+    },
+    "53": {
+        "name": "K.P.AGRAHARA Police Station",
+        "lat": 12.9745,
+        "lng": 77.5605,
+        "division": "VIJAYANAGAR SUB-DIVISION",
+        "type": "Law & Order",
+        "mobile": "080-22942222",
+        "email": "bcp.control@ksp.gov.in"
+    },
+    "54": {
+        "name": "BASAVESHWARANAGAR Police Station",
+        "lat": 12.9914,
+        "lng": 77.5486,
+        "division": "VIJAYANAGAR SUB-DIVISION",
+        "type": "Law & Order",
+        "mobile": "080-22942222",
+        "email": "bcp.control@ksp.gov.in"
+    },
+    "55": {
+        "name": "CEN  BASAVESHWARANAGAR Police Station",
+        "lat": 12.9854,
+        "lng": 77.5426,
+        "division": "VIJAYANAGAR SUB-DIVISION",
+        "type": "CEN (Cyber/Narcotics)",
+        "mobile": "9480801707",
+        "email": "cenpswestbcp@ksp.gov.in"
+    },
+    "56": {
+        "name": "KAMAKSHIPALYA Police Station",
+        "lat": 12.9895,
+        "lng": 77.5417,
+        "division": "VIJAYANAGAR SUB-DIVISION",
+        "type": "Law & Order",
+        "mobile": "080-22942222",
+        "email": "bcp.control@ksp.gov.in"
+    },
+    "57": {
+        "name": "BYADARAHALLI Police Station",
+        "lat": 12.9898,
+        "lng": 77.4943,
+        "division": "VIJAYANAGAR SUB-DIVISION",
+        "type": "Law & Order",
+        "mobile": "9480801550",
+        "email": "byhallibcp@ksp.gov.in"
+    },
+    "58": {
+        "name": "CEN Police Station",
+        "lat": 12.963,
+        "lng": 77.565,
+        "division": "NORTH DIVISION",
+        "type": "CEN (Cyber/Narcotics)",
+        "mobile": "080-22942222",
+        "email": "bcp.control@ksp.gov.in"
+    },
+    "59": {
+        "name": "NORTH CONTROL ROOM Police Station",
+        "lat": 12.989,
+        "lng": 77.649,
+        "division": "NORTH DIVISION",
+        "type": "Law & Order",
+        "mobile": "080-22942222",
+        "email": "bcp.control@ksp.gov.in"
+    },
+    "60": {
+        "name": "MALLESHWARAM Police Station",
+        "lat": 13.0031,
+        "lng": 77.5644,
+        "division": "MALLESHWARAM  SUB-DIVISION",
+        "type": "Law & Order",
+        "mobile": "080-22942222",
+        "email": "bcp.control@ksp.gov.in"
+    },
+    "61": {
+        "name": "SRIRAMPURA Police Station",
+        "lat": 12.9915,
+        "lng": 77.5664,
+        "division": "MALLESHWARAM  SUB-DIVISION",
+        "type": "Law & Order",
+        "mobile": "080-22942222",
+        "email": "bcp.control@ksp.gov.in"
+    },
+    "62": {
+        "name": "RAJAJINAGAR Police Station",
+        "lat": 12.9912,
+        "lng": 77.5579,
+        "division": "MALLESHWARAM  SUB-DIVISION",
+        "type": "Law & Order",
+        "mobile": "080-22942222",
+        "email": "bcp.control@ksp.gov.in"
+    },
+    "63": {
+        "name": "SUBRAMANYA NAGAR Police Station",
+        "lat": 13.0115,
+        "lng": 77.5595,
+        "division": "MALLESHWARAM  SUB-DIVISION",
+        "type": "Law & Order",
+        "mobile": "9480801320",
+        "email": "sbpurabcp@ksp.gov.in"
+    },
+    "64": {
+        "name": "MAHALAKSHMI LAYOUT Police Station",
+        "lat": 13.0222,
+        "lng": 77.554,
+        "division": "MALLESHWARAM  SUB-DIVISION",
+        "type": "Law & Order",
+        "mobile": "080-22942222",
+        "email": "bcp.control@ksp.gov.in"
+    },
+    "65": {
+        "name": "RAJAGOPAL NAGAR Police Station",
+        "lat": 13.023,
+        "lng": 77.522,
+        "division": "MALLESHWARAM  SUB-DIVISION",
+        "type": "Law & Order",
+        "mobile": "080-22942222",
+        "email": "bcp.control@ksp.gov.in"
+    },
+    "66": {
+        "name": "NANDINI LAYOUT Police Station",
+        "lat": 13.014,
+        "lng": 77.5383,
+        "division": "MALLESHWARAM  SUB-DIVISION",
+        "type": "Law & Order",
+        "mobile": "080-22942222",
+        "email": "bcp.control@ksp.gov.in"
+    },
+    "67": {
+        "name": "YESHWANTHAPURA Police Station",
+        "lat": 13.031,
+        "lng": 77.543,
+        "division": "YESHWANTHAPURA SUB-DIVISION",
+        "type": "Law & Order",
+        "mobile": "080-22942222",
+        "email": "bcp.control@ksp.gov.in"
+    },
+    "68": {
+        "name": "CEN  YEAHWANTHAPURA Police Station",
+        "lat": 12.968,
+        "lng": 77.703,
+        "division": "YESHWANTHAPURA SUB-DIVISION",
+        "type": "CEN (Cyber/Narcotics)",
+        "mobile": "080-22942222",
+        "email": "cenpsnorthbcp@ksp.gov.in"
+    },
+    "69": {
+        "name": "R.M.C YARD Police Station",
+        "lat": 13.028,
+        "lng": 77.552,
+        "division": "YESHWANTHAPURA SUB-DIVISION",
+        "type": "Law & Order",
+        "mobile": "080-22942222",
+        "email": "bcp.control@ksp.gov.in"
+    },
+    "70": {
+        "name": "PEENYA Police Station",
+        "lat": 13.036,
+        "lng": 77.5212,
+        "division": "YESHWANTHAPURA SUB-DIVISION",
+        "type": "Law & Order",
+        "mobile": "080-22942222",
+        "email": "bcp.control@ksp.gov.in"
+    },
+    "71": {
+        "name": "SOLADEVANAHALLI Police Station",
+        "lat": 13.0953,
+        "lng": 77.4923,
+        "division": "YESHWANTHAPURA SUB-DIVISION",
+        "type": "Law & Order",
+        "mobile": "080-22942222",
+        "email": "bcp.control@ksp.gov.in"
+    },
+    "72": {
+        "name": "GANGAMMANAGUDI Police Station",
+        "lat": 13.067,
+        "lng": 77.545,
+        "division": "YESHWANTHAPURA SUB-DIVISION",
+        "type": "Law & Order",
+        "mobile": "9480801326",
+        "email": "gggudibcp@ksp.gov.in"
+    },
+    "73": {
+        "name": "JALAHALLI Police Station",
+        "lat": 13.0535,
+        "lng": 77.5544,
+        "division": "YESHWANTHAPURA SUB-DIVISION",
+        "type": "Law & Order",
+        "mobile": "080-22942222",
+        "email": "bcp.control@ksp.gov.in"
+    },
+    "74": {
+        "name": "BAGALGUNTE Police Station",
+        "lat": 13.054,
+        "lng": 77.505,
+        "division": "YESHWANTHAPURA SUB-DIVISION",
+        "type": "Law & Order",
+        "mobile": "080-22942222",
+        "email": "bcp.control@ksp.gov.in"
+    },
+    "75": {
+        "name": "J.C.NAGAR Police Station",
+        "lat": 13.008,
+        "lng": 77.591,
+        "division": "J.C.NAGAR SUB-DIVISION",
+        "type": "Law & Order",
+        "mobile": "080-22942222",
+        "email": "bcp.control@ksp.gov.in"
+    },
+    "76": {
+        "name": "SANJAYANAGAR Police Station",
+        "lat": 13.0351,
+        "lng": 77.5774,
+        "division": "J.C.NAGAR SUB-DIVISION",
+        "type": "Law & Order",
+        "mobile": "080-22942222",
+        "email": "bcp.control@ksp.gov.in"
+    },
+    "77": {
+        "name": "HEBBALA Police Station",
+        "lat": 13.0389,
+        "lng": 77.6,
+        "division": "J.C.NAGAR SUB-DIVISION",
+        "type": "Law & Order",
+        "mobile": "080-22942222",
+        "email": "bcp.control@ksp.gov.in"
+    },
+    "78": {
+        "name": "R.T.NAGAR Police Station",
+        "lat": 13.0285,
+        "lng": 77.5995,
+        "division": "J.C.NAGAR SUB-DIVISION",
+        "type": "Law & Order",
+        "mobile": "080-22942222",
+        "email": "bcp.control@ksp.gov.in"
+    },
+    "79": {
+        "name": "SOUTH CONTROL ROOM Police Station",
+        "lat": 12.876,
+        "lng": 77.653,
+        "division": "SOUTH  DIVISION",
+        "type": "Law & Order",
+        "mobile": "080-22942222",
+        "email": "bcp.control@ksp.gov.in"
+    },
+    "80": {
+        "name": "ACP JAYANAGAR Police Station",
+        "lat": 12.925,
+        "lng": 77.5938,
+        "division": "JAYANAGARA  SUB-DIVISION",
+        "type": "Law & Order",
+        "mobile": "9480801505",
+        "email": "bcp.control@ksp.gov.in"
+    },
+    "81": {
+        "name": "JAYANAGAR Police Station",
+        "lat": 12.9265,
+        "lng": 77.5953,
+        "division": "JAYANAGARA  SUB-DIVISION",
+        "type": "Law & Order",
+        "mobile": "9480801515",
+        "email": "pijnagarbcp@ksp.gov.in"
+    },
+    "82": {
+        "name": "BASAVANAGUDI Police Station",
+        "lat": 12.9446,
+        "lng": 77.5769,
+        "division": "JAYANAGARA  SUB-DIVISION",
+        "type": "Law & Order",
+        "mobile": "9480801516",
+        "email": "bgudibcp@ksp.gov.in"
+    },
+    "83": {
+        "name": "J.P.NAGAR Police Station",
+        "lat": 12.9114,
+        "lng": 77.59,
+        "division": "JAYANAGARA  SUB-DIVISION",
+        "type": "Law & Order",
+        "mobile": "9480801517",
+        "email": "jpnagarbcp@ksp.gov.in"
+    },
+    "84": {
+        "name": "SIDDAPURA Police Station",
+        "lat": 12.9449,
+        "lng": 77.5984,
+        "division": "JAYANAGARA  SUB-DIVISION",
+        "type": "Law & Order",
+        "mobile": "9480801519",
+        "email": "spurabcp@ksp.gov.in"
+    },
+    "85": {
+        "name": "BANASHANKARI Police Station",
+        "lat": 12.9229,
+        "lng": 77.565,
+        "division": "JAYANAGARA  SUB-DIVISION",
+        "type": "Law & Order",
+        "mobile": "9480801527",
+        "email": "bskbcp@ksp.gov.in"
+    },
+    "86": {
+        "name": "CEN  (CYBER ECONOMIC Police Station",
+        "lat": 12.993,
+        "lng": 77.546,
+        "division": "JAYANAGARA  SUB-DIVISION",
+        "type": "CEN (Cyber/Narcotics)",
+        "mobile": "080-22942222",
+        "email": "bcp.control@ksp.gov.in"
+    },
+    "87": {
+        "name": "BASAVANAGUDI WOMEN Police Station",
+        "lat": 12.9446,
+        "lng": 77.5769,
+        "division": "JAYANAGARA  SUB-DIVISION",
+        "type": "Women PS",
+        "mobile": "9480801530",
+        "email": "bgudiwbcp@ksp.gov.in"
+    },
+    "88": {
+        "name": "V.V.PURAM Police Station",
+        "lat": 12.9555,
+        "lng": 77.5795,
+        "division": "V.V.PURAM SUB-DIVISION",
+        "type": "Law & Order",
+        "mobile": "9480801522",
+        "email": "vvpurapsbcp@ksp.gov.in"
+    },
+    "89": {
+        "name": "HANUMANTHANAGARA Police Station",
+        "lat": 12.95,
+        "lng": 77.567,
+        "division": "V.V.PURAM SUB-DIVISION",
+        "type": "Law & Order",
+        "mobile": "9480801524",
+        "email": "hnagarbcp@ksp.gov.in"
+    },
+    "90": {
+        "name": "KEMPEGOWDA NAGAR Police Station",
+        "lat": 12.952,
+        "lng": 77.568,
+        "division": "V.V.PURAM SUB-DIVISION",
+        "type": "Law & Order",
+        "mobile": "9480801525",
+        "email": "kgnagarbcp@ksp.gov.in"
+    },
+    "91": {
+        "name": "SHANKARAPURAM Police Station",
+        "lat": 12.9554,
+        "lng": 77.5716,
+        "division": "V.V.PURAM SUB-DIVISION",
+        "type": "Law & Order",
+        "mobile": "9480801526",
+        "email": "piskpurabcp@ksp.gov.in"
+    },
+    "92": {
+        "name": "GIRINAGAR Police Station",
+        "lat": 12.9389,
+        "lng": 77.547,
+        "division": "V.V.PURAM SUB-DIVISION",
+        "type": "Law & Order",
+        "mobile": "9480801528",
+        "email": "gnagarbcp@ksp.gov.in"
+    },
+    "93": {
+        "name": "C.K.ACHUKATTU Police Station",
+        "lat": 12.9325,
+        "lng": 77.5545,
+        "division": "V.V.PURAM SUB-DIVISION",
+        "type": "Law & Order",
+        "mobile": "9480801532",
+        "email": "bcp.control@ksp.gov.in"
+    },
+    "94": {
+        "name": "SUBRAMANYAPURA Police Station",
+        "lat": 12.901,
+        "lng": 77.559,
+        "division": "SUBRAMANYAPURA SUB-DIVISION",
+        "type": "Law & Order",
+        "mobile": "9480801529",
+        "email": "rabcp@ksp.gov.in"
+    },
+    "95": {
+        "name": "K.S. LAYOUT Police Station",
+        "lat": 12.908,
+        "lng": 77.56,
+        "division": "SUBRAMANYAPURA SUB-DIVISION",
+        "type": "Law & Order",
+        "mobile": "9480801531",
+        "email": "tbcp@ksp.gov.in"
+    },
+    "96": {
+        "name": "TALAGHATTAPURA Police Station",
+        "lat": 12.8695,
+        "lng": 77.5425,
+        "division": "SUBRAMANYAPURA SUB-DIVISION",
+        "type": "Law & Order",
+        "mobile": "9480801075",
+        "email": "abcp@ksp.gov.in"
+    },
+    "97": {
+        "name": "KONANAKUNTE Police Station",
+        "lat": 12.8869,
+        "lng": 77.5694,
+        "division": "SUBRAMANYAPURA SUB-DIVISION",
+        "type": "Law & Order",
+        "mobile": "9480801520",
+        "email": "bcp.control@ksp.gov.in"
+    },
+    "98": {
+        "name": "PUTTENAHALLI Police Station",
+        "lat": 12.8975,
+        "lng": 77.5865,
+        "division": "SUBRAMANYAPURA SUB-DIVISION",
+        "type": "Law & Order",
+        "mobile": "9480801523",
+        "email": "bcp.control@ksp.gov.in"
+    },
+    "99": {
+        "name": "NORTH-EAST CONTROL ROOM Police Station",
+        "lat": 12.895,
+        "lng": 77.526,
+        "division": "NORTH EAST DIVISION",
+        "type": "Law & Order",
+        "mobile": "080-22942222",
+        "email": "bcp.control@ksp.gov.in"
+    },
+    "100": {
+        "name": "YELAHANKA Police Station",
+        "lat": 13.1007,
+        "lng": 77.5963,
+        "division": "YELAHANKA   SUB-DIVISION",
+        "type": "Law & Order",
+        "mobile": "9480801415",
+        "email": "ylankabcp@ksp.gov.in"
+    },
+    "101": {
+        "name": "CEN Police Station",
+        "lat": 12.963,
+        "lng": 77.565,
+        "division": "YELAHANKA   SUB-DIVISION",
+        "type": "CEN (Cyber/Narcotics)",
+        "mobile": "080-22942222",
+        "email": "bcp.control@ksp.gov.in"
+    },
+    "102": {
+        "name": "YELAHANKA   NEW TOWN Police Station",
+        "lat": 13.1037,
+        "lng": 77.5993,
+        "division": "YELAHANKA   SUB-DIVISION",
+        "type": "Law & Order",
+        "mobile": "9480801416",
+        "email": "piylkntbcp@ksp.gov.in"
+    },
+    "103": {
+        "name": "KODIGEHALLI Police Station",
+        "lat": 13.0667,
+        "lng": 77.5786,
+        "division": "YELAHANKA   SUB-DIVISION",
+        "type": "Law & Order",
+        "mobile": "9480801422",
+        "email": "bcp.control@ksp.gov.in"
+    },
+    "104": {
+        "name": "VIDYARANYAPURA Police Station",
+        "lat": 13.086,
+        "lng": 77.566,
+        "division": "YELAHANKA   SUB-DIVISION",
+        "type": "Law & Order",
+        "mobile": "9480801327",
+        "email": "pivrpurabcp@ksp.gov.in"
+    },
+    "105": {
+        "name": "SAMPIGEHALLI Police Station",
+        "lat": 13.075,
+        "lng": 77.616,
+        "division": "SAMPIGEHALLI SUB-DIVISION",
+        "type": "Law & Order",
+        "mobile": "080-22942222",
+        "email": "bcp.control@ksp.gov.in"
+    },
+    "106": {
+        "name": "KOTHANURU Police Station",
+        "lat": 13.0645,
+        "lng": 77.6535,
+        "division": "SAMPIGEHALLI SUB-DIVISION",
+        "type": "Law & Order",
+        "mobile": "9480801423",
+        "email": "kottanurbcp@ksp.gov.in"
+    },
+    "107": {
+        "name": "BHAGALURU Police Station",
+        "lat": 13.139,
+        "lng": 77.653,
+        "division": "SAMPIGEHALLI SUB-DIVISION",
+        "type": "Law & Order",
+        "mobile": "9480801418",
+        "email": "bcp.control@ksp.gov.in"
+    },
+    "108": {
+        "name": "AMRUTHAHALLI Police Station",
+        "lat": 13.0725,
+        "lng": 77.6025,
+        "division": "SAMPIGEHALLI SUB-DIVISION",
+        "type": "Law & Order",
+        "mobile": "080-22942222",
+        "email": "bcp.control@ksp.gov.in"
+    },
+    "109": {
+        "name": "INTERNATIONAL   AIRPORT Police Station",
+        "lat": 12.858,
+        "lng": 77.567,
+        "division": "DEVANAHALLI  SUB-DIVISION",
+        "type": "Law & Order",
+        "mobile": "080-22942222",
+        "email": "bcp.control@ksp.gov.in"
+    },
+    "110": {
+        "name": "DEVANAHALLI Police Station",
+        "lat": 13.246,
+        "lng": 77.712,
+        "division": "DEVANAHALLI  SUB-DIVISION",
+        "type": "Law & Order",
+        "mobile": "9480801420",
+        "email": "bcp.control@ksp.gov.in"
+    },
+    "111": {
+        "name": "CHIKKAJALA Police Station",
+        "lat": 13.1715,
+        "lng": 77.6375,
+        "division": "DEVANAHALLI  SUB-DIVISION",
+        "type": "Law & Order",
+        "mobile": "9480801419",
+        "email": "bcp.control@ksp.gov.in"
+    },
+    "112": {
+        "name": "ELECTRONIC CITY Police Station",
+        "lat": 12.8482,
+        "lng": 77.6632,
+        "division": "ELECTRONIC CITY SUB-DIVISION",
+        "type": "Law & Order",
+        "mobile": "080-22942222",
+        "email": "bcp.control@ksp.gov.in"
+    },
+    "113": {
+        "name": "BANDEPALYA Police Station",
+        "lat": 12.9025,
+        "lng": 77.6425,
+        "division": "ELECTRONIC CITY SUB-DIVISION",
+        "type": "Law & Order",
+        "mobile": "080-22942222",
+        "email": "bcp.control@ksp.gov.in"
+    },
+    "114": {
+        "name": "HULIMAVU Police Station",
+        "lat": 12.8827,
+        "lng": 77.606,
+        "division": "ELECTRONIC CITY SUB-DIVISION",
+        "type": "Law & Order",
+        "mobile": "080-22942222",
+        "email": "bcp.control@ksp.gov.in"
+    },
+    "115": {
+        "name": "BEGURU Police Station",
+        "lat": 12.881,
+        "lng": 77.624,
+        "division": "ELECTRONIC CITY SUB-DIVISION",
+        "type": "Law & Order",
+        "mobile": "9480801217",
+        "email": "pibegurubcp@ksp.gov.in"
+    },
+    "116": {
+        "name": "PARAPPANA AGRAHARA Police Station",
+        "lat": 12.8725,
+        "lng": 77.6555,
+        "division": "ELECTRONIC CITY SUB-DIVISION",
+        "type": "Law & Order",
+        "mobile": "9480801627",
+        "email": "bcp.control@ksp.gov.in"
+    },
+    "117": {
+        "name": "THILAKANAGAR Police Station",
+        "lat": 12.926,
+        "lng": 77.601,
+        "division": "MICO LAYOUT SUB-DIVISION",
+        "type": "Law & Order",
+        "mobile": "9480801621",
+        "email": "pitlknagarbcp@ksp.gov.in"
+    },
+    "118": {
+        "name": "MICO LAYOUT Police Station",
+        "lat": 12.9165,
+        "lng": 77.6125,
+        "division": "MICO LAYOUT SUB-DIVISION",
+        "type": "Law & Order",
+        "mobile": "080-22942222",
+        "email": "bcp.control@ksp.gov.in"
+    },
+    "119": {
+        "name": "BOMMANAHALLI Police Station",
+        "lat": 12.909,
+        "lng": 77.63,
+        "division": "MICO LAYOUT SUB-DIVISION",
+        "type": "Law & Order",
+        "mobile": "080-22942222",
+        "email": "bcp.control@ksp.gov.in"
+    },
+    "120": {
+        "name": "SUDDGUNTEPALYA Police Station",
+        "lat": 12.932,
+        "lng": 77.612,
+        "division": "MICO LAYOUT SUB-DIVISION",
+        "type": "Law & Order",
+        "mobile": "9480801425",
+        "email": "pisgpalyabcp@ksp.gov.in"
+    },
+    "121": {
+        "name": "KORAMANGALA Police Station",
+        "lat": 12.9367,
+        "lng": 77.626,
+        "division": "MADIVALA SUB-DIVISION",
+        "type": "Law & Order",
+        "mobile": "080-22942222",
+        "email": "bcp.control@ksp.gov.in"
+    },
+    "122": {
+        "name": "MADIVALA Police Station",
+        "lat": 12.9256,
+        "lng": 77.6204,
+        "division": "MADIVALA SUB-DIVISION",
+        "type": "Law & Order",
+        "mobile": "080-22942222",
+        "email": "bcp.control@ksp.gov.in"
+    },
+    "123": {
+        "name": "H.S.R LAYOUT Police Station",
+        "lat": 12.9166,
+        "lng": 77.6491,
+        "division": "MADIVALA SUB-DIVISION",
+        "type": "Law & Order",
+        "mobile": "080-22942222",
+        "email": "bcp.control@ksp.gov.in"
+    },
+    "124": {
+        "name": "CEN  (CYBER ECONOMIC Police Station",
+        "lat": 12.993,
+        "lng": 77.546,
+        "division": "MADIVALA SUB-DIVISION",
+        "type": "CEN (Cyber/Narcotics)",
+        "mobile": "080-22942222",
+        "email": "bcp.control@ksp.gov.in"
+    },
+    "125": {
+        "name": "ADUGODI Police Station",
+        "lat": 12.9392,
+        "lng": 77.6102,
+        "division": "MADIVALA SUB-DIVISION",
+        "type": "Law & Order",
+        "mobile": "9480801518",
+        "email": "piadugodibcp@ksp.gov.in"
+    },
+    "126": {
+        "name": "WHITE FIELD CONTROL ROOM Police Station",
+        "lat": 12.9713,
+        "lng": 77.7514,
+        "division": "WHITE FIELD DIVISION",
+        "type": "Law & Order",
+        "mobile": "080-22942222",
+        "email": "bcp.control@ksp.gov.in"
+    },
+    "127": {
+        "name": "WHITE FIELD Police Station",
+        "lat": 12.9728,
+        "lng": 77.7529,
+        "division": "WHITE FIELD SUB DIVISION",
+        "type": "Law & Order",
+        "mobile": "080-22942222",
+        "email": "bcp.control@ksp.gov.in"
+    },
+    "128": {
+        "name": "CEN  (CYBER ECONOMIC Police Station",
+        "lat": 12.993,
+        "lng": 77.546,
+        "division": "WHITE FIELD SUB DIVISION",
+        "type": "CEN (Cyber/Narcotics)",
+        "mobile": "080-22942222",
+        "email": "bcp.control@ksp.gov.in"
+    },
+    "129": {
+        "name": "K.R.PURAM Police Station",
+        "lat": 13.015,
+        "lng": 77.702,
+        "division": "WHITE FIELD SUB DIVISION",
+        "type": "Law & Order",
+        "mobile": "080-22942222",
+        "email": "bcp.control@ksp.gov.in"
+    },
+    "130": {
+        "name": "MAHADEVAPURA Police Station",
+        "lat": 12.9968,
+        "lng": 77.6928,
+        "division": "WHITE FIELD SUB DIVISION",
+        "type": "Law & Order",
+        "mobile": "080-22942222",
+        "email": "bcp.control@ksp.gov.in"
+    },
+    "131": {
+        "name": "KADUGODI Police Station",
+        "lat": 12.9407,
+        "lng": 77.6117,
+        "division": "WHITE FIELD SUB DIVISION",
+        "type": "Law & Order",
+        "mobile": "080-22942222",
+        "email": "bcp.control@ksp.gov.in"
+    },
+    "132": {
+        "name": "MARATHAHALLI Police Station",
+        "lat": 12.9486,
+        "lng": 77.7009,
+        "division": "MARATHAHALLI SUB DIVISION",
+        "type": "Law & Order",
+        "mobile": "9480801615",
+        "email": "bcp.control@ksp.gov.in"
+    },
+    "133": {
+        "name": "H.A.L Police Station",
+        "lat": 12.9595,
+        "lng": 77.6725,
+        "division": "MARATHAHALLI SUB DIVISION",
+        "type": "Law & Order",
+        "mobile": "080-22942222",
+        "email": "bcp.control@ksp.gov.in"
+    },
+    "134": {
+        "name": "BELLANDURU Police Station",
+        "lat": 12.925,
+        "lng": 77.674,
+        "division": "MARATHAHALLI SUB DIVISION",
+        "type": "Law & Order",
+        "mobile": "9480801543",
+        "email": "bcp.control@ksp.gov.in"
+    },
+    "135": {
+        "name": "VARTHUR Police Station",
+        "lat": 12.938,
+        "lng": 77.7469,
+        "division": "MARATHAHALLI SUB DIVISION",
+        "type": "Law & Order",
+        "mobile": "080-22942222",
+        "email": "bcp.control@ksp.gov.in"
+    },
+    "136": {
+        "name": "TRAFFIC EAST CONTROL ROOM Police Station",
+        "lat": 13.067,
+        "lng": 77.721,
+        "division": "TRAFFIC EAST-DIVISION",
+        "type": "Traffic",
+        "mobile": "080-22942222",
+        "email": "bcp.control@ksp.gov.in"
+    },
+    "137": {
+        "name": "CUBBON PARK Police Station",
+        "lat": 12.9792,
+        "lng": 77.6012,
+        "division": "TRAFFIC CENTRAL SUB-DIVISION",
+        "type": "Traffic",
+        "mobile": "080-22942222",
+        "email": "bcp.control@ksp.gov.in"
+    },
+    "138": {
+        "name": "HALSOOR GATE Police Station",
+        "lat": 13.051,
+        "lng": 77.633,
+        "division": "TRAFFIC CENTRAL SUB-DIVISION",
+        "type": "Traffic",
+        "mobile": "080-22942222",
+        "email": "bcp.control@ksp.gov.in"
+    },
+    "139": {
+        "name": "HIGH GROUND Police Station",
+        "lat": 12.9964,
+        "lng": 77.5909,
+        "division": "TRAFFIC CENTRAL SUB-DIVISION",
+        "type": "Traffic",
+        "mobile": "080-22942222",
+        "email": "bcp.control@ksp.gov.in"
+    },
+    "140": {
+        "name": "ASHOKANAGAR Police Station",
+        "lat": 12.931,
+        "lng": 77.682,
+        "division": "TRAFFIC CENTRAL SUB-DIVISION",
+        "type": "Traffic",
+        "mobile": "9480801823",
+        "email": "bcp.control@ksp.gov.in"
+    },
+    "141": {
+        "name": "WILSON GARDEN Police Station",
+        "lat": 12.9517,
+        "lng": 77.5976,
+        "division": "TRAFFIC CENTRAL SUB-DIVISION",
+        "type": "Traffic",
+        "mobile": "9480801826",
+        "email": "bcp.control@ksp.gov.in"
+    },
+    "142": {
+        "name": "SADASHIVANAGAR Police Station",
+        "lat": 12.895,
+        "lng": 77.557,
+        "division": "TRAFFIC CENTRAL SUB-DIVISION",
+        "type": "Traffic",
+        "mobile": "080-22942222",
+        "email": "bcp.control@ksp.gov.in"
+    },
+    "143": {
+        "name": "HALASOOR Police Station",
+        "lat": 12.9799,
+        "lng": 77.63,
+        "division": "TRAFFIC EAST SUB -DIVISION",
+        "type": "Traffic",
+        "mobile": "080-22942222",
+        "email": "bcp.control@ksp.gov.in"
+    },
+    "144": {
+        "name": "JEEVANBHEEMA NAGAR Police Station",
+        "lat": 13.063,
+        "lng": 77.542,
+        "division": "TRAFFIC EAST SUB -DIVISION",
+        "type": "Traffic",
+        "mobile": "080-22942222",
+        "email": "bcp.control@ksp.gov.in"
+    },
+    "145": {
+        "name": "SHIVAJINAGAR Police Station",
+        "lat": 12.9879,
+        "lng": 77.6036,
+        "division": "TRAFFIC EAST SUB -DIVISION",
+        "type": "Traffic",
+        "mobile": "080-22942222",
+        "email": "bcp.control@ksp.gov.in"
+    },
+    "146": {
+        "name": "PULAKESHI NAGAR Police Station",
+        "lat": 12.983,
+        "lng": 77.614,
+        "division": "TRAFFIC EAST SUB -DIVISION",
+        "type": "Traffic",
+        "mobile": "080-22942222",
+        "email": "bcp.control@ksp.gov.in"
+    },
+    "147": {
+        "name": "BANASAWADI Police Station",
+        "lat": 12.859,
+        "lng": 77.709,
+        "division": "TRAFFIC EAST SUB -DIVISION",
+        "type": "Traffic",
+        "mobile": "9480801819",
+        "email": "bwaditrafficbcp@ksp.gov.in"
+    },
+    "148": {
+        "name": "K.G.HALLI Police Station",
+        "lat": 13.0225,
+        "lng": 77.6235,
+        "division": "TRAFFIC EAST SUB -DIVISION",
+        "type": "Traffic",
+        "mobile": "080-22942222",
+        "email": "bcp.control@ksp.gov.in"
+    },
+    "149": {
+        "name": "ADUGODI Police Station",
+        "lat": 12.9452,
+        "lng": 77.6162,
+        "division": "TRAFFIC SOUTH-EAST SUB-DIVISION",
+        "type": "Traffic",
+        "mobile": "080-22942222",
+        "email": "bcp.control@ksp.gov.in"
+    },
+    "150": {
+        "name": "ELECTRONIC CITY Police Station",
+        "lat": 12.8452,
+        "lng": 77.6602,
+        "division": "TRAFFIC SOUTH-EAST SUB-DIVISION",
+        "type": "Traffic",
+        "mobile": "9480801832",
+        "email": "bcp.control@ksp.gov.in"
+    },
+    "151": {
+        "name": "MADIVALA Police Station",
+        "lat": 12.9241,
+        "lng": 77.6189,
+        "division": "TRAFFIC SOUTH-EAST SUB-DIVISION",
+        "type": "Traffic",
+        "mobile": "080-22942222",
+        "email": "bcp.control@ksp.gov.in"
+    },
+    "152": {
+        "name": "MICO LAYOUT Police Station",
+        "lat": 12.915,
+        "lng": 77.611,
+        "division": "TRAFFIC SOUTH-EAST SUB-DIVISION",
+        "type": "Traffic",
+        "mobile": "9480801825",
+        "email": "micolyttrafficbcp@ksp.gov.in"
+    },
+    "153": {
+        "name": "HULIMAVU Police Station",
+        "lat": 12.8812,
+        "lng": 77.6045,
+        "division": "TRAFFIC SOUTH-EAST SUB-DIVISION",
+        "type": "Traffic",
+        "mobile": "9480801553",
+        "email": "hulimavutrfebcp@ksp.gov.in"
+    },
+    "154": {
+        "name": "H.S.R LAYOUT Police Station",
+        "lat": 12.9181,
+        "lng": 77.6506,
+        "division": "TRAFFIC SOUTH-EAST SUB-DIVISION",
+        "type": "Traffic",
+        "mobile": "9480801426",
+        "email": "bcp.control@ksp.gov.in"
+    },
+    "155": {
+        "name": "PLANNING Police Station",
+        "lat": 13.082,
+        "lng": 77.63,
+        "division": "TRAFFIC SOUTH-EAST SUB-DIVISION",
+        "type": "Traffic",
+        "mobile": "080-22942222",
+        "email": "bcp.control@ksp.gov.in"
+    },
+    "156": {
+        "name": "AIRPORT Police Station",
+        "lat": 13.077,
+        "lng": 77.67,
+        "division": "TRAFFIC WHITE FIELD SUB-DIVISION",
+        "type": "Traffic",
+        "mobile": "080-22942222",
+        "email": "bcp.control@ksp.gov.in"
+    },
+    "157": {
+        "name": "WHITE FIELD Police Station",
+        "lat": 12.9728,
+        "lng": 77.7529,
+        "division": "TRAFFIC WHITE FIELD SUB-DIVISION",
+        "type": "Traffic",
+        "mobile": "9480801831",
+        "email": "bcp.control@ksp.gov.in"
+    },
+    "158": {
+        "name": "K.R.PURAM Police Station",
+        "lat": 13.0135,
+        "lng": 77.7005,
+        "division": "TRAFFIC WHITE FIELD SUB-DIVISION",
+        "type": "Traffic",
+        "mobile": "080-22942222",
+        "email": "bcp.control@ksp.gov.in"
+    },
+    "159": {
+        "name": "TRAFFIC WEST CONTROL ROOM Police Station",
+        "lat": 13.055,
+        "lng": 77.678,
+        "division": "TRAFFIC WEST DIVISION",
+        "type": "Traffic",
+        "mobile": "080-22942222",
+        "email": "bcp.control@ksp.gov.in"
+    },
+    "160": {
+        "name": "CHICKPETE Police Station",
+        "lat": 12.92,
+        "lng": 77.716,
+        "division": "TRAFFIC WEST SUB-DIVISION",
+        "type": "Traffic",
+        "mobile": "9480801916",
+        "email": "trafficbcp@ksp.gov.in"
+    },
+    "161": {
+        "name": "UPPARPETE Police Station",
+        "lat": 12.9787,
+        "lng": 77.5729,
+        "division": "TRAFFIC WEST SUB-DIVISION",
+        "type": "Traffic",
+        "mobile": "080-22942222",
+        "email": "bcp.control@ksp.gov.in"
+    },
+    "162": {
+        "name": "CITY MARKET Police Station",
+        "lat": 12.9688,
+        "lng": 77.5795,
+        "division": "TRAFFIC WEST SUB-DIVISION",
+        "type": "Traffic",
+        "mobile": "080-22942222",
+        "email": "bcp.control@ksp.gov.in"
+    },
+    "163": {
+        "name": "MAGADI ROAD Police Station",
+        "lat": 12.979,
+        "lng": 77.5558,
+        "division": "TRAFFIC WEST SUB-DIVISION",
+        "type": "Traffic",
+        "mobile": "080-22942222",
+        "email": "bcp.control@ksp.gov.in"
+    },
+    "164": {
+        "name": "VIJAYANAGAR Police Station",
+        "lat": 12.9779,
+        "lng": 77.5364,
+        "division": "TRAFFIC WEST SUB-DIVISION",
+        "type": "Traffic",
+        "mobile": "080-22942222",
+        "email": "bcp.control@ksp.gov.in"
+    },
+    "165": {
+        "name": "BYATARAYANAPURA Police Station",
+        "lat": 12.954,
+        "lng": 77.545,
+        "division": "TRAFFIC WEST SUB-DIVISION",
+        "type": "Traffic",
+        "mobile": "080-22942222",
+        "email": "bcp.control@ksp.gov.in"
+    },
+    "166": {
+        "name": "KAMAKSHIPALYA Police Station",
+        "lat": 12.9895,
+        "lng": 77.5417,
+        "division": "TRAFFIC WEST SUB-DIVISION",
+        "type": "Traffic",
+        "mobile": "080-22942222",
+        "email": "bcp.control@ksp.gov.in"
+    },
+    "167": {
+        "name": "KENGERI Police Station",
+        "lat": 12.9027,
+        "lng": 77.4857,
+        "division": "TRAFFIC WEST SUB-DIVISION",
+        "type": "Traffic",
+        "mobile": "9448700371",
+        "email": "bcp@ksp.gov.in"
+    },
+    "168": {
+        "name": "MALLESHWARAM Police Station",
+        "lat": 13.0076,
+        "lng": 77.5689,
+        "division": "TRAFFIC NORTH SUB-DIVISION",
+        "type": "Traffic",
+        "mobile": "080-22942222",
+        "email": "bcp.control@ksp.gov.in"
+    },
+    "169": {
+        "name": "RAJAJINAGAR Police Station",
+        "lat": 12.9942,
+        "lng": 77.5609,
+        "division": "TRAFFIC NORTH SUB-DIVISION",
+        "type": "Traffic",
+        "mobile": "080-22942222",
+        "email": "bcp.control@ksp.gov.in"
+    },
+    "170": {
+        "name": "YESHWANTHAPURA Police Station",
+        "lat": 13.028,
+        "lng": 77.54,
+        "division": "TRAFFIC NORTH SUB-DIVISION",
+        "type": "Traffic",
+        "mobile": "080-22942222",
+        "email": "bcp.control@ksp.gov.in"
+    },
+    "171": {
+        "name": "JALAHALLI Police Station",
+        "lat": 13.0505,
+        "lng": 77.5514,
+        "division": "TRAFFIC NORTH SUB-DIVISION",
+        "type": "Traffic",
+        "mobile": "9480801558",
+        "email": "itrfbcp@ksp.gov.in"
+    },
+    "172": {
+        "name": "PEENYA Police Station",
+        "lat": 13.039,
+        "lng": 77.5242,
+        "division": "TRAFFIC NORTH SUB-DIVISION",
+        "type": "Traffic",
+        "mobile": "9480801923",
+        "email": "ficbcp@ksp.gov.in"
+    },
+    "173": {
+        "name": "V V PURAM Police Station",
+        "lat": 12.962,
+        "lng": 77.656,
+        "division": "TRAFFIC SOUTH-SUB DIVISION",
+        "type": "Traffic",
+        "mobile": "080-22942222",
+        "email": "bcp.control@ksp.gov.in"
+    },
+    "174": {
+        "name": "TR, JAYANAGAR Police Station",
+        "lat": 12.931,
+        "lng": 77.5998,
+        "division": "TRAFFIC SOUTH-SUB DIVISION",
+        "type": "Traffic",
+        "mobile": "080-22942222",
+        "email": "bcp.control@ksp.gov.in"
+    },
+    "175": {
+        "name": "BASAVANAGUDI Police Station",
+        "lat": 12.9416,
+        "lng": 77.5739,
+        "division": "TRAFFIC SOUTH-SUB DIVISION",
+        "type": "Traffic",
+        "mobile": "080-22942222",
+        "email": "bcp.control@ksp.gov.in"
+    },
+    "176": {
+        "name": "TR BANASHANKARI Police Station",
+        "lat": 12.9244,
+        "lng": 77.5665,
+        "division": "TRAFFIC SOUTH-SUB DIVISION",
+        "type": "Traffic",
+        "mobile": "080-22942222",
+        "email": "bcp.control@ksp.gov.in"
+    },
+    "177": {
+        "name": "KUMARASWAMY LAYOUT Police Station",
+        "lat": 12.9081,
+        "lng": 77.566,
+        "division": "TRAFFIC SOUTH-SUB DIVISION",
+        "type": "Traffic",
+        "mobile": "9480801930",
+        "email": "kslyttrafficbcp@ksp.gov.in"
+    },
+    "178": {
+        "name": "YELAHANKA Police Station",
+        "lat": 13.1052,
+        "lng": 77.6008,
+        "division": "TRAFFIC SOUTH-SUB DIVISION",
+        "type": "Traffic",
+        "mobile": "080-22942222",
+        "email": "bcp.control@ksp.gov.in"
+    },
+    "179": {
+        "name": "HEBBALA Police Station",
+        "lat": 13.0419,
+        "lng": 77.603,
+        "division": "TRAFFIC SOUTH-SUB DIVISION",
+        "type": "Traffic",
+        "mobile": "9480801931",
+        "email": "ficbcp@ksp.gov.in"
+    },
+    "180": {
+        "name": "CHIKKAJALA Police Station",
+        "lat": 13.17,
+        "lng": 77.636,
+        "division": "TRAFFIC SOUTH-SUB DIVISION",
+        "type": "Traffic",
+        "mobile": "9480801934",
+        "email": "bcp.control@ksp.gov.in"
+    },
+    "181": {
+        "name": "DEVANAHALLI Police Station",
+        "lat": 13.2475,
+        "lng": 77.7135,
+        "division": "TRAFFIC SOUTH-SUB DIVISION",
+        "type": "Traffic",
+        "mobile": "080-22942222",
+        "email": "bcp.control@ksp.gov.in"
+    },
+    "182": {
+        "name": "R.T.NAGAR Police Station",
+        "lat": 13.027,
+        "lng": 77.598,
+        "division": "TRAFFIC SOUTH-SUB DIVISION",
+        "type": "Traffic",
+        "mobile": "080-22942222",
+        "email": "bcp.control@ksp.gov.in"
+    },
+    "183": {
+        "name": "CCB CONTROL ROOM Police Station",
+        "lat": 12.9695,
+        "lng": 77.5945,
+        "division": "TRAFFIC SOUTH-SUB DIVISION",
+        "type": "Traffic",
+        "mobile": "080-22942222",
+        "email": "bcp.control@ksp.gov.in"
+    },
+    "184": {
+        "name": "F&M Police Station",
+        "lat": 12.991,
+        "lng": 77.489,
+        "division": "TRAFFIC SOUTH-SUB DIVISION",
+        "type": "Traffic",
+        "mobile": "9480801559",
+        "email": "bcp.control@ksp.gov.in"
+    },
+    "185": {
+        "name": "F&M Police Station",
+        "lat": 12.991,
+        "lng": 77.489,
+        "division": "TRAFFIC SOUTH-SUB DIVISION",
+        "type": "Traffic",
+        "mobile": "9480801556",
+        "email": "bcp.control@ksp.gov.in"
+    },
+    "186": {
+        "name": "W&N Police Station",
+        "lat": 12.851,
+        "lng": 77.725,
+        "division": "TRAFFIC SOUTH-SUB DIVISION",
+        "type": "Traffic",
+        "mobile": "9480801561",
+        "email": "bcp.control@ksp.gov.in"
+    },
+    "187": {
+        "name": "W&N Police Station",
+        "lat": 12.851,
+        "lng": 77.725,
+        "division": "TRAFFIC SOUTH-SUB DIVISION",
+        "type": "Traffic",
+        "mobile": "9480801562",
+        "email": "bcp.control@ksp.gov.in"
+    },
+    "188": {
+        "name": "W&N Police Station",
+        "lat": 12.851,
+        "lng": 77.725,
+        "division": "TRAFFIC SOUTH-SUB DIVISION",
+        "type": "Traffic",
+        "mobile": "9480801542",
+        "email": "bcp.control@ksp.gov.in"
+    },
+    "189": {
+        "name": "W&N Police Station",
+        "lat": 12.851,
+        "lng": 77.725,
+        "division": "TRAFFIC SOUTH-SUB DIVISION",
+        "type": "Traffic",
+        "mobile": "9480801549",
+        "email": "bcp.control@ksp.gov.in"
+    },
+    "190": {
+        "name": "OCW Police Station",
+        "lat": 12.943,
+        "lng": 77.576,
+        "division": "TRAFFIC SOUTH-SUB DIVISION",
+        "type": "Traffic",
+        "mobile": "9480801545",
+        "email": "bcp.control@ksp.gov.in"
+    },
+    "191": {
+        "name": "H&B Police Station",
+        "lat": 13.099,
+        "lng": 77.481,
+        "division": "TRAFFIC SOUTH-SUB DIVISION",
+        "type": "Traffic",
+        "mobile": "9480801560",
+        "email": "bcp.control@ksp.gov.in"
+    },
+    "192": {
+        "name": "CITY SB CONTROL ROOM Police Station",
+        "lat": 13.013,
+        "lng": 77.559,
+        "division": "TRAFFIC SOUTH-SUB DIVISION",
+        "type": "Traffic",
+        "mobile": "080-22942222",
+        "email": "bcp.control@ksp.gov.in"
+    },
+    "193": {
+        "name": "CAR HQRS.CONTROL ROOM Police Station",
+        "lat": 13.072,
+        "lng": 77.547,
+        "division": "TRAFFIC SOUTH-SUB DIVISION",
+        "type": "Traffic",
+        "mobile": "080-22942222",
+        "email": "bcp.control@ksp.gov.in"
+    },
+    "194": {
+        "name": "CAR SOUTH CONTROL ROOM Police Station",
+        "lat": 13.042,
+        "lng": 77.62,
+        "division": "TRAFFIC SOUTH-SUB DIVISION",
+        "type": "Traffic",
+        "mobile": "080-22942222",
+        "email": "bcp.control@ksp.gov.in"
+    },
+    "195": {
+        "name": "CAR NORTH CONTROL ROOM Police Station",
+        "lat": 13.096,
+        "lng": 77.503,
+        "division": "TRAFFIC SOUTH-SUB DIVISION",
+        "type": "Traffic",
+        "mobile": "080-22942222",
+        "email": "bcp.control@ksp.gov.in"
+    },
+    "196": {
+        "name": "CAR WEST CONTROL ROOM Police Station",
+        "lat": 13.033,
+        "lng": 77.659,
+        "division": "TRAFFIC SOUTH-SUB DIVISION",
+        "type": "Traffic",
+        "mobile": "080-22942222",
+        "email": "crcarwestbcp@ksp.gov.in"
+    }
+}

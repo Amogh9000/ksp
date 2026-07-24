@@ -1,0 +1,93 @@
+UnitID,UnitName,TypeID,ParentUnit,NationalityID,StateID,DistrictID,Active
+1,Bengaluru Urban PS 1,1,,1,1,1,True
+2,Bengaluru Urban PS 2,1,,1,1,1,True
+3,Bengaluru Rural PS 1,1,,1,1,2,True
+4,Bengaluru Rural PS 2,1,,1,1,2,True
+5,Mysuru PS 1,1,,1,1,3,True
+6,Mysuru PS 2,1,,1,1,3,True
+7,Mysuru PS 3,1,,1,1,3,True
+8,Mysuru PS 4,1,,1,1,3,True
+9,Belagavi PS 1,1,,1,1,4,True
+10,Belagavi PS 2,1,,1,1,4,True
+11,Belagavi PS 3,1,,1,1,4,True
+12,Ballari PS 1,1,,1,1,5,True
+13,Ballari PS 2,1,,1,1,5,True
+14,Ballari PS 3,1,,1,1,5,True
+15,Vijayapura PS 1,1,,1,1,6,True
+16,Vijayapura PS 2,1,,1,1,6,True
+17,Vijayapura PS 3,1,,1,1,6,True
+18,Tumakuru PS 1,1,,1,1,7,True
+19,Tumakuru PS 2,1,,1,1,7,True
+20,Shivamogga PS 1,1,,1,1,8,True
+21,Shivamogga PS 2,1,,1,1,8,True
+22,Dakshina Kannada PS 1,1,,1,1,9,True
+23,Dakshina Kannada PS 2,1,,1,1,9,True
+24,Dakshina Kannada PS 3,1,,1,1,9,True
+25,Dakshina Kannada PS 4,1,,1,1,9,True
+26,Dakshina Kannada PS 5,1,,1,1,9,True
+27,Kalaburagi PS 1,1,,1,1,10,True
+28,Kalaburagi PS 2,1,,1,1,10,True
+29,Dharwad PS 1,1,,1,1,11,True
+30,Dharwad PS 2,1,,1,1,11,True
+31,Hassan PS 1,1,,1,1,12,True
+32,Hassan PS 2,1,,1,1,12,True
+33,Mandya PS 1,1,,1,1,13,True
+34,Mandya PS 2,1,,1,1,13,True
+35,Mandya PS 3,1,,1,1,13,True
+36,Chikkamagaluru PS 1,1,,1,1,14,True
+37,Chikkamagaluru PS 2,1,,1,1,14,True
+38,Chikkamagaluru PS 3,1,,1,1,14,True
+39,Udupi PS 1,1,,1,1,15,True
+40,Udupi PS 2,1,,1,1,15,True
+41,Raichur PS 1,1,,1,1,16,True
+42,Raichur PS 2,1,,1,1,16,True
+43,Raichur PS 3,1,,1,1,16,True
+44,Bidar PS 1,1,,1,1,17,True
+45,Bidar PS 2,1,,1,1,17,True
+46,Bidar PS 3,1,,1,1,17,True
+47,Bidar PS 4,1,,1,1,17,True
+48,Bidar PS 5,1,,1,1,17,True
+49,Kolar PS 1,1,,1,1,18,True
+50,Kolar PS 2,1,,1,1,18,True
+51,Kolar PS 3,1,,1,1,18,True
+52,Chitradurga PS 1,1,,1,1,19,True
+53,Chitradurga PS 2,1,,1,1,19,True
+54,Chitradurga PS 3,1,,1,1,19,True
+55,Chitradurga PS 4,1,,1,1,19,True
+56,Chitradurga PS 5,1,,1,1,19,True
+57,Davanagere PS 1,1,,1,1,20,True
+58,Davanagere PS 2,1,,1,1,20,True
+59,Davanagere PS 3,1,,1,1,20,True
+60,Davanagere PS 4,1,,1,1,20,True
+61,Haveri PS 1,1,,1,1,21,True
+62,Haveri PS 2,1,,1,1,21,True
+63,Gadag PS 1,1,,1,1,22,True
+64,Gadag PS 2,1,,1,1,22,True
+65,Gadag PS 3,1,,1,1,22,True
+66,Koppal PS 1,1,,1,1,23,True
+67,Koppal PS 2,1,,1,1,23,True
+68,Koppal PS 3,1,,1,1,23,True
+69,Koppal PS 4,1,,1,1,23,True
+70,Koppal PS 5,1,,1,1,23,True
+71,Bagalkote PS 1,1,,1,1,24,True
+72,Bagalkote PS 2,1,,1,1,24,True
+73,Bagalkote PS 3,1,,1,1,24,True
+74,Bagalkote PS 4,1,,1,1,24,True
+75,Chikkaballapura PS 1,1,,1,1,25,True
+76,Chikkaballapura PS 2,1,,1,1,25,True
+77,Chikkaballapura PS 3,1,,1,1,25,True
+78,Chikkaballapura PS 4,1,,1,1,25,True
+79,Chamarajanagara PS 1,1,,1,1,26,True
+80,Chamarajanagara PS 2,1,,1,1,26,True
+81,Chamarajanagara PS 3,1,,1,1,26,True
+82,Kodagu PS 1,1,,1,1,27,True
+83,Kodagu PS 2,1,,1,1,27,True
+84,Kodagu PS 3,1,,1,1,27,True
+85,Ramanagara PS 1,1,,1,1,28,True
+86,Ramanagara PS 2,1,,1,1,28,True
+87,Ramanagara PS 3,1,,1,1,28,True
+88,Ramanagara PS 4,1,,1,1,28,True
+89,Yadgir PS 1,1,,1,1,29,True
+90,Yadgir PS 2,1,,1,1,29,True
+91,Vijayanagara PS 1,1,,1,1,30,True
+92,Vijayanagara PS 2,1,,1,1,30,True
