@@ -4,6 +4,8 @@ import { useState, useEffect, useRef } from 'react';
 import Link from 'next/link';
 import dynamic from 'next/dynamic';
 
+const API_BASE_URL = (process.env.NEXT_PUBLIC_API_BASE_URL ?? 'http://localhost:8000').replace(/\/$/, '');
+
 // ── Types for backend response ──────────────────────────────────────────────
 interface Citation {
   fir_id: string;
@@ -252,7 +254,7 @@ function DirectoryComponent() {
 
   useEffect(() => {
     setLoading(true);
-    fetch(`http://localhost:8000/api/directory?page=${page}&limit=50&lang=${localLang}`)
+    fetch(`${API_BASE_URL}/api/directory?page=${page}&limit=50&lang=${localLang}`)
       .then(res => res.json())
       .then(resData => {
         setData(resData);
@@ -447,7 +449,7 @@ function SuspectDirectoryComponent() {
 
   useEffect(() => {
     setLoading(true);
-    fetch(`http://localhost:8000/api/suspects?page=${page}&limit=50&lang=${localLang}`)
+    fetch(`${API_BASE_URL}/api/suspects?page=${page}&limit=50&lang=${localLang}`)
       .then(res => res.json())
       .then(resData => {
         setData(resData);
@@ -667,12 +669,12 @@ export default function DashboardPage() {
   }, []);
 
   useEffect(() => {
-    fetch('http://localhost:8000/api/telemetry')
+    fetch(`${API_BASE_URL}/api/telemetry`)
       .then(res => res.json())
       .then(data => setTelemetry(data))
       .catch(err => console.error('Failed to fetch telemetry:', err));
 
-    fetch(`http://localhost:8000/api/feed?lang=${isKannada ? 'kn' : 'en'}`)
+    fetch(`${API_BASE_URL}/api/feed?lang=${isKannada ? 'kn' : 'en'}`)
       .then(res => res.json())
       .then(data => setFeed(data))
       .catch(err => console.error('Failed to fetch feed:', err));
@@ -709,7 +711,7 @@ export default function DashboardPage() {
     setIsLoading(true);
 
     try {
-      const res = await fetch('http://localhost:8000/api/query', {
+      const res = await fetch(`${API_BASE_URL}/api/query`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ query, lang: isKannada ? 'kn' : 'en' }),

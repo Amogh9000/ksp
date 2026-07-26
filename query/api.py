@@ -73,16 +73,28 @@ app = FastAPI(
 )
 
 # ── CORS — allow the Next.js dev server (and any origin) to call this API ───
+frontend_origins = [
+    origin.strip()
+    for origin in os.getenv("FRONTEND_ORIGINS", "http://localhost:3000").split(",")
+    if origin.strip()
+]
+
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],
-    allow_credentials=True,
+    allow_origins=frontend_origins,
+    allow_credentials=False,
     allow_methods=["*"],
     allow_headers=["*"],
 )
 
 # ── Lazy singleton for the LLM gateway (avoids re-init on every request) ────
 _gateway: LLMGateway | None = None
+
+
+@app.get("/health", tags=["Health"])
+def health() -> dict[str, str]:
+    """Lightweight endpoint for AppSail health checks."""
+    return {"status": "ok"}
 
 
 def _get_gateway() -> LLMGateway:
