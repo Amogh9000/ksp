@@ -5,6 +5,7 @@ import Link from 'next/link';
 import dynamic from 'next/dynamic';
 
 const API_BASE_URL = (process.env.NEXT_PUBLIC_API_BASE_URL ?? 'http://localhost:8000').replace(/\/$/, '');
+const QUERY_API_BASE_URL = (process.env.NEXT_PUBLIC_QUERY_API_BASE_URL ?? API_BASE_URL).replace(/\/$/, '');
 
 // ── Types for backend response ──────────────────────────────────────────────
 interface Citation {
@@ -254,7 +255,7 @@ function DirectoryComponent() {
 
   useEffect(() => {
     setLoading(true);
-    fetch(`${API_BASE_URL}/api/directory?page=${page}&limit=50&lang=${localLang}`)
+    fetch(`${QUERY_API_BASE_URL}/api/directory?page=${page}&limit=50&lang=${localLang}`)
       .then(res => res.json())
       .then(resData => {
         setData(resData);
@@ -449,7 +450,7 @@ function SuspectDirectoryComponent() {
 
   useEffect(() => {
     setLoading(true);
-    fetch(`${API_BASE_URL}/api/suspects?page=${page}&limit=50&lang=${localLang}`)
+    fetch(`${QUERY_API_BASE_URL}/api/suspects?page=${page}&limit=50&lang=${localLang}`)
       .then(res => res.json())
       .then(resData => {
         setData(resData);
@@ -669,12 +670,12 @@ export default function DashboardPage() {
   }, []);
 
   useEffect(() => {
-    fetch(`${API_BASE_URL}/api/telemetry`)
+    fetch(`${QUERY_API_BASE_URL}/api/telemetry`)
       .then(res => res.json())
       .then(data => setTelemetry(data))
       .catch(err => console.error('Failed to fetch telemetry:', err));
 
-    fetch(`${API_BASE_URL}/api/feed?lang=${isKannada ? 'kn' : 'en'}`)
+    fetch(`${QUERY_API_BASE_URL}/api/feed?lang=${isKannada ? 'kn' : 'en'}`)
       .then(res => res.json())
       .then(data => setFeed(data))
       .catch(err => console.error('Failed to fetch feed:', err));
@@ -711,7 +712,7 @@ export default function DashboardPage() {
     setIsLoading(true);
 
     try {
-      const res = await fetch(`${API_BASE_URL}/api/query`, {
+      const res = await fetch(`${QUERY_API_BASE_URL}/api/query`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ query, lang: isKannada ? 'kn' : 'en' }),
