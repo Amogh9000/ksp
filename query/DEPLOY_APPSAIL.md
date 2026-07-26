@@ -6,7 +6,7 @@ This service is the API used by the Slate dashboard. Deploy from the repository 
 
 - Runtime: Python 3.11
 - Build path: repository root
-- Startup command: `python3 -m uvicorn query.api:app --host 0.0.0.0 --port ${X_ZOHO_CATALYST_LISTEN_PORT}`
+- Startup command: `sh -c 'python3 -m uvicorn query.api:app --host 0.0.0.0 --port ${X_ZOHO_CATALYST_LISTEN_PORT}'`
 - Health check: `/health`
 
 Install the packages in the root `requirements.txt` as part of the AppSail build bundle. Do not upload `.env`; enter the values from `.env.example` in AppSail's environment-variable settings instead.
