@@ -1,0 +1,16 @@
+.git/
+.next/
+node_modules/
+frontend/
+backend/
+catalyst_csv_bundle/
+scratch/
+__pycache__/
+*.py[cod]
+.env
+.env.*
+*.log
+*.jsonl
+*.dump
+*.zip
+vs_BuildTools.exe
