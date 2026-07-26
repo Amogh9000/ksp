@@ -1,4 +1,11 @@
 fastapi
-uvicorn
+uvicorn[standard]
 networkx
 scikit-learn
+sqlalchemy[asyncio]
+asyncpg
+pydantic-settings
+python-jose[cryptography]
+passlib[bcrypt]
+python-multipart
+python-dotenv
