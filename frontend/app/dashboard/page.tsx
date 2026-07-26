@@ -22,6 +22,15 @@ interface ChatMessage {
   citations?: Citation[];
 }
 
+interface FeedItem {
+  id: string | number;
+  incident_date: string;
+  fir_number: string;
+  district: string;
+  crime_category: string;
+  description?: string;
+}
+
 // ── Citation Card Component ───────────────────────────────────────────────────
 function CitationCard({ cite }: { cite: Citation }) {
   const [expanded, setExpanded] = useState(false);
@@ -189,7 +198,7 @@ function NetworkComponent({ payload }: { payload: any }) {
   );
 }
 
-function PredictComponent({ payload }: { payload: any }) {
+function PredictComponent({ payload, isKannada }: { payload: any; isKannada: boolean }) {
   if (!payload) return (
     <div className="flex-1 overflow-y-auto p-8 flex items-center justify-center">
       <span className="text-[var(--color-muted)] font-mono text-[12px]">No prediction payload available.</span>
@@ -650,7 +659,7 @@ export default function DashboardPage() {
   const [currentIntent, setCurrentIntent] = useState<string>('LOOKUP');
   const [currentPayload, setCurrentPayload] = useState<any>(null);
   const [telemetry, setTelemetry] = useState({ active_entities: 0, identified_edges: 0, critical_anomalies: 0 });
-  const [feed, setFeed] = useState<unknown[]>([]);
+  const [feed, setFeed] = useState<FeedItem[]>([]);
   const chatEndRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
@@ -856,7 +865,7 @@ export default function DashboardPage() {
           ) : currentIntent === 'NETWORK' ? (
             <NetworkComponent payload={currentPayload} />
           ) : currentIntent === 'PREDICT' ? (
-            <PredictComponent payload={currentPayload} />
+            <PredictComponent payload={currentPayload} isKannada={isKannada} />
           ) : currentIntent === 'DIRECTORY' ? (
             <DirectoryComponent />
           ) : currentIntent === 'SUSPECTS' ? (
