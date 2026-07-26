@@ -1,0 +1,667 @@
+// Auto-generated from landing.html — do not edit manually
+// Run generate_files.py to regenerate
+const landingHTML = `<!-- Top Navigation Assembly -->
+    <header class="relative z-50 shadow-md bg-white border-b border-[#D9D7D0]">
+
+        <!-- Upper Utility Strip Overhaul (Solid Black) -->
+        <div class="bg-[#151515] text-white w-full py-2">
+            <div
+                class="max-w-[1728px] mx-auto px-margin flex justify-between items-center text-[11px] font-bold tracking-wider font-label uppercase">
+                <!-- Left Aligned utilities -->
+                <div class="flex items-center gap-4">
+                    <a href="#" class="hover:text-white/80 transition-colors text-white"
+                        x-text="isKannada ? 'ಲಾಗಿನ್' : 'SIGN IN'">SIGN IN</a>
+                    <div class="w-[1px] h-3 bg-white/30"></div>
+                    <button @click="isKannada = !isKannada"
+                        class="hover:text-white/80 transition-colors flex items-center gap-1 text-white">
+                        <span class="material-symbols-outlined text-[14px]">translate</span>
+                        <span x-text="isKannada ? 'ENGLISH' : 'ಕನ್ನಡ'">ಕನ್ನಡ</span>
+                    </button>
+                </div>
+
+                <!-- Far Right-aligned font scaling cluster -->
+                <div class="flex items-center gap-1">
+                    <button onclick="changeFontSize(-1)"
+                        class="w-7 h-7 rounded border border-white/20 text-white flex items-center justify-center hover:bg-white/10 transition-colors">A-</button>
+                    <button onclick="changeFontSize(0)"
+                        class="w-7 h-7 rounded border border-white/20 text-white flex items-center justify-center hover:bg-white/10 transition-colors">A</button>
+                    <button onclick="changeFontSize(1)"
+                        class="w-7 h-7 rounded border border-white/20 text-white flex items-center justify-center hover:bg-white/10 transition-colors">A+</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Middle Branding Section Restructuring -->
+        <div class="bg-white w-full py-2 relative h-[110px]">
+            <div class="max-w-[1728px] h-full mx-auto px-margin flex items-center justify-between relative">
+
+                <!-- Far-Left Border Placement -->
+                <div class="h-[90px] flex items-center shrink-0 relative z-10">
+                    <img src="./image.png" alt="Chief Minister" class="h-full w-auto object-contain" />
+                </div>
+
+                <!-- Absolute Horizontal Centering -->
+                <div
+                    class="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 flex items-center justify-center pointer-events-none w-full z-10">
+                    <div class="flex items-center gap-4 pointer-events-auto">
+                        <div class="w-[72px] h-[72px] shrink-0">
+                            <img src="./image copy.png" alt="KSP Crest"
+                                class="w-full h-full object-contain drop-shadow-sm" />
+                        </div>
+                        <div class="flex flex-col text-left hidden xl:flex">
+                            <h1 class="font-display text-[28px] font-bold text-[#1B1B1B] leading-tight tracking-tight"
+                                x-text="isKannada ? 'ಕರ್ನಾಟಕ ರಾಜ್ಯ ಪೊಲೀಸ್' : 'Karnataka State Police'">Karnataka State
+                                Police</h1>
+                            <h2 class="font-body-md text-sm text-[#8C8880]"
+                                x-text="isKannada ? 'ಕರ್ನಾಟಕ ಸರ್ಕಾರ' : 'Government of Karnataka'">Government of
+                                Karnataka</h2>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Far-Right Border Placement -->
+                <div class="h-[90px] flex items-center shrink-0 relative z-10 hidden md:flex">
+                    <img src="./image copy 2.png" alt="Home Minister" class="h-full w-auto object-contain" />
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Workspace -->
+    <main>
+        <!-- 1. Command Cockpit -->
+        <section
+            class="pt-20 px-margin max-w-[1728px] mx-auto flex flex-col items-center text-center relative overflow-visible bg-page-bg pb-20">
+            <h1 class="font-display text-[64px] text-balance max-w-4xl mb-6 text-text tracking-tighter"
+                x-text="isKannada ? 'ಕೆಎಸ್ಪಿ ಗುಪ್ತಚರ ಪೋರ್ಟಲ್' : 'KSP Intelligence Portal'">KSP Intelligence Portal</h1>
+            <p class="font-body-lg text-muted max-w-2xl mb-12"
+                x-text="isKannada ? 'ಅಧಿಕೃತ ಸಿಬ್ಬಂದಿಗೆ ಮಾತ್ರ ಪ್ರವೇಶ. ಪ್ರಕರಣ ನಿರ್ವಹಣೆ, ಲಿಂಕ್ ವಿಶ್ಲೇಷಣೆ ಮತ್ತು ಲೈವ್ ಯುದ್ಧತಂತ್ರದ ಗುಪ್ತಚರಕ್ಕಾಗಿ ಕೇಂದ್ರೀಕೃತ ಡ್ಯಾಶ್‌ಬೋರ್ಡ್.' : 'Authorized Personnel Access Only. Centralized dashboard for case management, link analysis, and live tactical intelligence.'">
+                Authorized Personnel Access Only. Centralized dashboard for case management, link analysis, and live
+                tactical intelligence.</p>
+
+            <a href="/login"
+                class="group flex items-center gap-3 bg-black text-white px-8 py-4 rounded-full font-label text-sm font-bold uppercase tracking-widest hover:bg-text transition-colors shadow-lg shadow-black/20 hover:scale-105 transform duration-300">
+                <span
+                    x-text="isKannada ? 'ಇಂಟೆಲಿಜೆನ್ಸ್ ಡ್ಯಾಶ್‌ಬೋರ್ಡ್‌ಗೆ ಲಾಗಿನ್ ಮಾಡಿ' : 'LOGIN TO INTELLIGENCE DASHBOARD'">LOGIN
+                    TO INTELLIGENCE DASHBOARD</span>
+                <span
+                    class="material-symbols-outlined group-hover:translate-x-1 transition-transform">arrow_forward</span>
+            </a>
+
+            <!-- Embedded Global Search -->
+            <div class="w-full max-w-[800px] mt-16 relative z-10">
+                <div
+                    class="bg-white-card rounded-full shadow-[0_12px_40px_rgba(0,0,0,0.08)] p-3 flex items-center border border-[#D9D7D0]">
+                    <div class="pl-4 pr-2">
+                        <span class="material-symbols-outlined text-muted text-[28px]">search</span>
+                    </div>
+                    <input type="text"
+                        :placeholder="isKannada ? 'ಜಾಗತಿಕ ಹುಡುಕಾಟ: ಎಫ್ಐಆರ್ ಗಳು, ನಾಗರಿಕರು, ಇಲಾಖೆಯ ಸುತ್ತೋಲೆಗಳು...' : 'Global Search: FIRs, Citizens, Department Circulars...'"
+                        placeholder="Global Search: FIRs, Citizens, Department Circulars..."
+                        class="w-full bg-transparent border-none focus:outline-none text-text font-body-lg placeholder-muted-light px-2" />
+                    <div class="flex items-center gap-2 pr-1">
+                        <button
+                            class="w-12 h-12 rounded-full hover:bg-[#F4F3EF] flex items-center justify-center transition-colors border border-[#D9D7D0]">
+                            <span class="material-symbols-outlined text-[#FF4B2B]">mic</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 2. Online Services Grid -->
+        <section class="py-[120px] px-margin max-w-[1728px] mx-auto bg-page-bg border-t border-[#D9D7D0]">
+            <h2 class="font-display text-[40px] mb-12 font-bold tracking-tight text-text"
+                x-text="isKannada ? 'ತ್ವರಿತ ಲಿಂಕ್‌ಗಳು ಮತ್ತು ನಾಗರಿಕ ಸೇವೆಗಳು' : 'Quick Links & Citizen Services'">Quick
+                Links & Citizen Services</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                <a href="#"
+                    class="bg-white-card p-6 rounded-[24px] border border-[#D9D7D0] shadow-sm hover:shadow-md transition-shadow group">
+                    <div
+                        class="w-12 h-12 rounded-full bg-[#E0EAFC] text-[#2B547E] flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
+                        <span class="material-symbols-outlined">description</span>
+                    </div>
+                    <h3 class="font-h3 text-xl font-bold mb-2 text-text"
+                        x-text="isKannada ? 'ಎಫ್ಐಆರ್ ಹುಡುಕಾಟ' : 'FIR Search'">FIR Search</h3>
+                    <p class="font-body-md text-muted"
+                        x-text="isKannada ? 'ಪರಿಶೀಲಿಸಿದ ಎಫ್ಐಆರ್ ಪ್ರತಿಗಳನ್ನು ಡಿಜಿಟಲ್ ಆಗಿ ಪ್ರವೇಶಿಸಿ ಮತ್ತು ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ.' : 'Access and download verified FIR copies digitally.'">
+                        Access and download verified FIR copies digitally.</p>
+                </a>
+                <a href="#"
+                    class="bg-white-card p-6 rounded-[24px] border border-[#D9D7D0] shadow-sm hover:shadow-md transition-shadow group">
+                    <div
+                        class="w-12 h-12 rounded-full bg-[#FFE4D6] text-[#D84315] flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
+                        <span class="material-symbols-outlined">policy</span>
+                    </div>
+                    <h3 class="font-h3 text-xl font-bold mb-2 text-text"
+                        x-text="isKannada ? 'ಸೇವಾ ಸಿಂಧು' : 'Seva Sindhu'">Seva Sindhu</h3>
+                    <p class="font-body-md text-muted"
+                        x-text="isKannada ? 'ವಿವಿಧ ಸರ್ಕಾರಿ ಅನುಮತಿಗಳಿಗಾಗಿ ಸಂಯೋಜಿತ ಪೋರ್ಟಲ್.' : 'Integrated portal for various government clearances.'">
+                        Integrated portal for various government clearances.</p>
+                </a>
+                <a href="#"
+                    class="bg-white-card p-6 rounded-[24px] border border-[#D9D7D0] shadow-sm hover:shadow-md transition-shadow group">
+                    <div
+                        class="w-12 h-12 rounded-full bg-[#F3E5F5] text-[#6A1B9A] flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
+                        <span class="material-symbols-outlined">report</span>
+                    </div>
+                    <h3 class="font-h3 text-xl font-bold mb-2 text-text"
+                        x-text="isKannada ? 'ಇ-ಲಾಸ್ಟ್ ವರದಿಗಳು' : 'e-Lost Reports'">e-Lost Reports</h3>
+                    <p class="font-body-md text-muted"
+                        x-text="isKannada ? 'ಠಾಣೆಗೆ ಭೇಟಿ ನೀಡದೆ ಕಳೆದುಹೋದ ವಸ್ತುಗಳನ್ನು ತಕ್ಷಣ ವರದಿ ಮಾಡಿ.' : 'Report lost articles instantly without visiting a station.'">
+                        Report lost articles instantly without visiting a station.</p>
+                </a>
+                <a href="#"
+                    class="bg-white-card p-6 rounded-[24px] border border-[#D9D7D0] shadow-sm hover:shadow-md transition-shadow group">
+                    <div
+                        class="w-12 h-12 rounded-full bg-[#E8F5E9] text-[#2E7D32] flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
+                        <span class="material-symbols-outlined">badge</span>
+                    </div>
+                    <h3 class="font-h3 text-xl font-bold mb-2 text-text" x-text="isKannada ? 'ನೇಮಕಾತಿ' : 'Recruitment'">
+                        Recruitment</h3>
+                    <p class="font-body-md text-muted"
+                        x-text="isKannada ? 'ಚಾಲ್ತಿಯಲ್ಲಿರುವ ಪೊಲೀಸ್ ನೇಮಕಾತಿ ಡ್ರೈವ್‌ಗಳ ಇತ್ತೀಚಿನ ನವೀಕರಣಗಳು.' : 'Latest updates on ongoing police recruitment drives.'">
+                        Latest updates on ongoing police recruitment drives.</p>
+                </a>
+            </div>
+        </section>
+
+        <!-- 3. Feature Showcase 01 -->
+        <section class="py-[120px] px-margin max-w-[1728px] mx-auto bg-page-bg border-t border-[#D9D7D0]">
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-xl items-center">
+                <div class="lg:col-span-5 flex flex-col justify-center">
+                    <div class="inline-block px-3 py-1 bg-black text-white w-max rounded text-[10px] font-bold uppercase tracking-wider mb-8"
+                        x-text="isKannada ? 'ಆಂತರಿಕ ವ್ಯವಸ್ಥೆ' : 'Internal System'">Internal System</div>
+                    <h3 class="font-display text-[48px] leading-[1.1] mb-6 font-bold tracking-tight text-text text-balance"
+                        x-text="isKannada ? 'ದ್ವಿಭಾಷಾ ಬುದ್ಧಿವಂತ RAG ಎಂಜಿನ್' : 'Bilingual Intelligent RAG Engine'">
+                        Bilingual Intelligent RAG Engine</h3>
+                    <p class="font-body-lg text-muted leading-relaxed"
+                        x-text="isKannada ? 'ಇಂಗ್ಲಿಷ್ ಮತ್ತು ಕನ್ನಡದಾದ್ಯಂತ ಸಂಕೀರ್ಣ ಪ್ರಕರಣದ ಫೈಲ್‌ಗಳನ್ನು ತಕ್ಷಣವೇ ಪ್ರಶ್ನಿಸಿ. ಬುದ್ಧಿವಂತ ಎಂಜಿನ್ ನಿಖರವಾದ ತನಿಖಾ ಒಳನೋಟಗಳನ್ನು ಮೇಲ್ಮೈಗೆ ತರಲು ಐತಿಹಾಸಿಕ ದಾಖಲೆಗಳು ಮತ್ತು ಸಕ್ರಿಯ ವರದಿಗಳನ್ನು ಅಡ್ಡ-ಉಲ್ಲೇಖಿಸುತ್ತದೆ.' : 'Query complex case files across English and Kannada instantly. The intelligent engine cross-references historical records and active reports to surface precise investigative insights.'">
+                        Query complex case files across English and Kannada instantly. The intelligent engine
+                        cross-references historical records and active reports to surface precise investigative
+                        insights.
+                    </p>
+                </div>
+                <div class="lg:col-span-7">
+                    <div
+                        class="bg-panel-bg rounded-[40px] p-8 h-[600px] flex items-center justify-center relative overflow-hidden border border-[#D9D7D0] shadow-inner">
+                        <div
+                            class="w-full max-w-lg bg-white-card rounded-[24px] shadow-xl border border-[#D9D7D0] p-8 flex flex-col gap-8">
+                            <div class="flex gap-4 items-start">
+                                <div
+                                    class="w-10 h-10 rounded-full bg-black shrink-0 flex items-center justify-center text-white font-bold text-[11px] shadow-sm">
+                                    INV</div>
+                                <div class="bg-soft-card-2 p-5 rounded-2xl rounded-tl-none font-body-md text-text border border-[#D9D7D0] shadow-sm"
+                                    x-text="isKannada ? 'ಕಳೆದ 30 ದಿನಗಳಲ್ಲಿ ಎಚ್‌ಎಸ್‌ಆರ್ ಲೇಔಟ್‌ನಲ್ಲಿ ಇತ್ತೀಚಿನ ವಾಹನ ಕಳ್ಳತನದ ಮಾದರಿಗಳನ್ನು ಸಂಕ್ಷಿಪ್ತಗೊಳಿಸಿ.' : 'Summarize the recent vehicle theft patterns in HSR Layout over the last 30 days.'">
+                                    Summarize the recent vehicle theft patterns in HSR Layout over the last 30 days.
+                                </div>
+                            </div>
+                            <div class="flex gap-4 items-start">
+                                <div
+                                    class="w-10 h-10 rounded-full bg-gradient-to-tr from-[#FF416C] to-[#FF4B2B] shrink-0 flex items-center justify-center text-white shadow-md">
+                                    <span class="material-symbols-outlined text-[20px]">auto_awesome</span>
+                                </div>
+                                <div
+                                    class="bg-page-bg p-5 rounded-2xl rounded-tr-none font-body-md text-text border border-[#D9D7D0] flex flex-col gap-4 shadow-sm">
+                                    <p
+                                        x-text="isKannada ? 'ವಿಶ್ಲೇಷಣೆಯು ದ್ವಿಚಕ್ರ ವಾಹನಗಳನ್ನು ಒಳಗೊಂಡ 14 ಘಟನೆಗಳ ಸಮೂಹವನ್ನು ಸೂಚಿಸುತ್ತದೆ, ಪ್ರಾಥಮಿಕವಾಗಿ ಬೆಳಿಗ್ಗೆ 02:00 ಮತ್ತು 04:30 ರ ನಡುವೆ ಸಂಭವಿಸುತ್ತದೆ.' : 'Analysis indicates a cluster of 14 incidents involving two-wheelers, primarily occurring between 02:00 and 04:30 AM.'">
+                                        Analysis indicates a cluster of 14 incidents involving two-wheelers, primarily
+                                        occurring between 02:00 and 04:30 AM.</p>
+                                    <div class="flex flex-wrap items-center gap-2 mt-2">
+                                        <span
+                                            class="bg-green-100/50 text-green-800 border border-green-200 px-2 py-1 rounded text-[10px] font-bold uppercase tracking-wider flex items-center gap-1.5">
+                                            <span class="w-1.5 h-1.5 rounded-full bg-green-500 animate-pulse"></span>
+                                            <span x-text="isKannada ? 'ಹೆಚ್ಚಿನ ವಿಶ್ವಾಸ' : 'HIGH CONFIDENCE'">HIGH
+                                                CONFIDENCE</span>
+                                        </span>
+                                        <span
+                                            class="bg-soft-card border border-[#D9D7D0] text-muted px-2 py-1 rounded text-[10px] font-mono">FIR-2023-08-112</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Feature Showcase 02 -->
+        <section class="py-[120px] px-margin max-w-[1728px] mx-auto bg-page-bg">
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-xl items-center">
+                <div class="lg:col-span-7 order-2 lg:order-1">
+                    <div
+                        class="bg-panel-bg rounded-[40px] p-8 h-[600px] flex items-center justify-center relative overflow-hidden border border-[#D9D7D0] shadow-inner">
+                        <div class="w-full h-full max-w-lg flex items-center justify-center">
+                            <div
+                                class="w-full bg-white-card border-[1.5px] border-text p-10 rounded-2xl shadow-[12px_12px_0px_rgba(27,27,27,1)] flex flex-col justify-between">
+                                <div class="flex justify-between items-start mb-14">
+                                    <span class="material-symbols-outlined text-[40px] text-text">hub</span>
+                                    <span
+                                        class="font-mono text-xs text-text border border-text px-3 py-1.5 uppercase font-bold tracking-wider"
+                                        x-text="isKannada ? 'ಲೈವ್ ಸ್ಟ್ರೀಮ್' : 'Live Stream'">Live Stream</span>
+                                </div>
+                                <div class="flex flex-col gap-3">
+                                    <p class="font-mono text-sm text-muted uppercase tracking-wider font-bold"
+                                        x-text="isKannada ? 'ಸಕ್ರಿಯ ನೆಟ್‌ವರ್ಕ್ ಘಟಕಗಳು' : 'Active Network Entities'">
+                                        Active Network Entities</p>
+                                    <p
+                                        class="font-display text-[72px] font-bold text-text leading-none tracking-tighter">
+                                        12,482</p>
+                                </div>
+                                <div class="w-full h-[1.5px] bg-[#D9D7D0] my-8"></div>
+                                <div class="grid grid-cols-3 gap-4">
+                                    <div class="flex flex-col gap-1">
+                                        <span
+                                            class="font-mono text-[11px] text-muted uppercase font-bold tracking-wider"
+                                            x-text="isKannada ? 'ನೋಡ್‌ಗಳು' : 'Nodes'">Nodes</span>
+                                        <span class="font-bold text-text text-xl">4,291</span>
+                                    </div>
+                                    <div class="flex flex-col gap-1">
+                                        <span
+                                            class="font-mono text-[11px] text-muted uppercase font-bold tracking-wider"
+                                            x-text="isKannada ? 'ಅಂಚುಗಳು' : 'Edges'">Edges</span>
+                                        <span class="font-bold text-text text-xl">8,191</span>
+                                    </div>
+                                    <div class="flex flex-col gap-1">
+                                        <span
+                                            class="font-mono text-[11px] text-[#FF4B2B] uppercase font-bold tracking-wider"
+                                            x-text="isKannada ? 'ವೈಪರೀತ್ಯಗಳು' : 'Anomalies'">Anomalies</span>
+                                        <span class="font-bold text-[#FF4B2B] text-xl">14</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="lg:col-span-5 flex flex-col justify-center order-1 lg:order-2">
+                    <div class="inline-block px-3 py-1 bg-black text-white w-max rounded text-[10px] font-bold uppercase tracking-wider mb-8"
+                        x-text="isKannada ? 'ಆಂತರಿಕ ವ್ಯವಸ್ಥೆ' : 'Internal System'">Internal System</div>
+                    <h3 class="font-display text-[48px] leading-[1.1] mb-6 font-bold tracking-tight text-text text-balance"
+                        x-text="isKannada ? 'ಸ್ವಾಯತ್ತ ನೆಟ್‌ವರ್ಕ್ ಲಿಂಕ್ ವಿಶ್ಲೇಷಣೆ' : 'Autonomous Network Link Analysis'">
+                        Autonomous Network Link Analysis</h3>
+                    <p class="font-body-lg text-muted leading-relaxed"
+                        x-text="isKannada ? 'ಶಂಕಿತರು, ವಾಹನಗಳು ಮತ್ತು ಸಂವಹನ ದಾಖಲೆಗಳ ನಡುವಿನ ಸಂಪರ್ಕಗಳನ್ನು ತಕ್ಷಣ ನಕ್ಷೆ ಮಾಡಿ. ನಮ್ಮ ಗ್ರಾಫ್ ಆರ್ಕಿಟೆಕ್ಚರ್ ಸ್ವಯಂಚಾಲಿತವಾಗಿ ಗುಪ್ತ ಸಂಬಂಧಗಳನ್ನು ಗುರುತಿಸುತ್ತದೆ, ಚದುರಿದ ಡೇಟಾವನ್ನು ಕ್ರಿಯಾಶೀಲ ಬುದ್ಧಿವಂತಿಕೆಯನ್ನಾಗಿ ಪರಿವರ್ತಿಸುತ್ತದೆ.' : 'Instantly map connections between suspects, vehicles, and communication records. Our graph architecture automatically identifies hidden affiliations, turning scattered data into actionable intelligence.'">
+                        Instantly map connections between suspects, vehicles, and communication records. Our graph
+                        architecture automatically identifies hidden affiliations, turning scattered data into
+                        actionable intelligence.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Workspace Pipelines -->
+        <section
+            class="py-[160px] px-margin max-w-[1728px] mx-auto bg-page-bg overflow-hidden relative border-t border-[#D9D7D0]">
+            <h2 class="font-display text-[48px] mb-16 font-bold tracking-tight text-text text-center"
+                x-text="isKannada ? 'ಕಾರ್ಯಾಚರಣೆಯ ಕಾರ್ಯಕ್ಷೇತ್ರಗಳು' : 'Operational Workspaces'">Operational Workspaces
+            </h2>
+
+            <div class="w-full flex gap-8 overflow-x-auto pb-12 snap-x snap-mandatory scrollbar-hide px-margin">
+                <div
+                    class="shrink-0 w-[420px] snap-center bg-white-card border border-[#D9D7D0] rounded-[32px] p-10 shadow-sm flex flex-col justify-between hover:shadow-xl transition-all duration-300 group">
+                    <div>
+                        <div class="inline-block px-4 py-1.5 bg-[#E0EAFC]/60 text-[#2B547E] border border-[#2B547E]/20 rounded text-[10px] font-bold uppercase tracking-wider mb-8"
+                            x-text="isKannada ? 'ಕೇಸ್ ಫೈಲ್ ಆರ್ಕೆಸ್ಟ್ರೇಟರ್' : 'Case File Orchestrator'">Case File
+                            Orchestrator</div>
+                        <h4 class="font-h3 text-[24px] font-bold mb-4 text-text leading-snug"
+                            x-text="isKannada ? 'ಡಿಜಿಟಲ್ ಕೇಸ್ ನಿರ್ವಹಣೆ' : 'Digital Case Management'">Digital Case
+                            Management</h4>
+                        <p class="font-body-md text-muted leading-relaxed"
+                            x-text="isKannada ? 'ಎಫ್‌ಐಆರ್‌ಗಳು, ಸಾಕ್ಷಿಗಳ ಹೇಳಿಕೆಗಳು ಮತ್ತು ಸಾಕ್ಷ್ಯಾಧಾರದ ದಾಖಲೆಗಳನ್ನು ಹೆಚ್ಚು ಸುರಕ್ಷಿತವಾದ ಎನ್‌ಕ್ಲೇವ್‌ನಲ್ಲಿ ಕೊನೆಯಿಂದ ಕೊನೆಯವರೆಗೆ ಡಿಜಿಟಲೀಕರಣಗೊಳಿಸುವುದು.' : 'End-to-end digitisation of FIRs, witness statements, and evidentiary documents in a highly secure enclave.'">
+                            End-to-end digitisation of FIRs, witness statements, and evidentiary documents in a highly
+                            secure enclave.</p>
+                    </div>
+                    <div
+                        class="mt-12 pt-6 border-t border-[#D9D7D0] flex justify-between items-center group-hover:border-[#1B1B1B] transition-colors">
+                        <span class="text-[11px] font-bold text-text uppercase tracking-wider"
+                            x-text="isKannada ? 'ಕಾರ್ಯಕ್ಷೇತ್ರವನ್ನು ಪ್ರವೇಶಿಸಿ' : 'Access Workspace'">Access
+                            Workspace</span>
+                        <span
+                            class="material-symbols-outlined text-text group-hover:translate-x-1 transition-transform">arrow_forward</span>
+                    </div>
+                </div>
+
+                <div
+                    class="shrink-0 w-[420px] snap-center bg-white-card border border-[#D9D7D0] rounded-[32px] p-10 shadow-sm flex flex-col justify-between hover:shadow-xl transition-all duration-300 group">
+                    <div>
+                        <div class="inline-block px-4 py-1.5 bg-[#FFE4D6]/60 text-[#D84315] border border-[#D84315]/20 rounded text-[10px] font-bold uppercase tracking-wider mb-8"
+                            x-text="isKannada ? 'ಜಿಲ್ಲಾ ಹಾಟ್‌ಸ್ಪಾಟ್ ಲೆಡ್ಜರ್' : 'District Hotspot Ledger'">District
+                            Hotspot Ledger</div>
+                        <h4 class="font-h3 text-[24px] font-bold mb-4 text-text leading-snug"
+                            x-text="isKannada ? 'ಮುನ್ಸೂಚಕ ಶಾಖ ನಕ್ಷೆಗಳು' : 'Predictive Heatmaps'">Predictive Heatmaps
+                        </h4>
+                        <p class="font-body-md text-muted leading-relaxed"
+                            x-text="isKannada ? 'ಅಪರಾಧ ಸಾಂದ್ರತೆಯ ಭೌಗೋಳಿಕ ದೃಶ್ಯೀಕರಣ. ಗಸ್ತು ಅಗತ್ಯತೆಗಳನ್ನು ನಿರೀಕ್ಷಿಸಿ ಮತ್ತು ಸಂಪನ್ಮೂಲಗಳನ್ನು ಸಮರ್ಥವಾಗಿ ನಿಯೋಜಿಸಿ.' : 'Geospatial visualization of crime density. Anticipate patrol requirements and allocate resources efficiently.'">
+                            Geospatial visualization of crime density. Anticipate patrol requirements and allocate
+                            resources efficiently.</p>
+                    </div>
+                    <div
+                        class="mt-12 pt-6 border-t border-[#D9D7D0] flex justify-between items-center group-hover:border-[#1B1B1B] transition-colors">
+                        <span class="text-[11px] font-bold text-text uppercase tracking-wider"
+                            x-text="isKannada ? 'ಕಾರ್ಯಕ್ಷೇತ್ರವನ್ನು ಪ್ರವೇಶಿಸಿ' : 'Access Workspace'">Access
+                            Workspace</span>
+                        <span
+                            class="material-symbols-outlined text-text group-hover:translate-x-1 transition-transform">arrow_forward</span>
+                    </div>
+                </div>
+
+                <div
+                    class="shrink-0 w-[420px] snap-center bg-white-card border border-[#D9D7D0] rounded-[32px] p-10 shadow-sm flex flex-col justify-between hover:shadow-xl transition-all duration-300 group">
+                    <div>
+                        <div class="inline-block px-4 py-1.5 bg-[#F3E5F5]/60 text-[#6A1B9A] border border-[#6A1B9A]/20 rounded text-[10px] font-bold uppercase tracking-wider mb-8"
+                            x-text="isKannada ? 'ಆಡಿಟ್ ಟ್ರಯಲ್ ಲೆಡ್ಜರ್' : 'Audit Trail Ledger'">Audit Trail Ledger</div>
+                        <h4 class="font-h3 text-[24px] font-bold mb-4 text-text leading-snug"
+                            x-text="isKannada ? 'ಬದಲಾಗದ ಲಾಗಿಂಗ್' : 'Immutable Logging'">Immutable Logging</h4>
+                        <p class="font-body-md text-muted leading-relaxed"
+                            x-text="isKannada ? 'ಹೊಣೆಗಾರಿಕೆಗಾಗಿ ಪ್ಲಾಟ್‌ಫಾರ್ಮ್ ಬಳಕೆ, ಡೇಟಾ ಪ್ರಶ್ನೆಗಳು ಮತ್ತು ಪ್ರವೇಶ ವಿನಂತಿಗಳ ಸಂಪೂರ್ಣ ಕ್ರಿಪ್ಟೋಗ್ರಾಫಿಕ್ ಟ್ರ್ಯಾಕಿಂಗ್.' : 'Complete cryptographic tracking of platform usage, data queries, and access requests for accountability.'">
+                            Complete cryptographic tracking of platform usage, data queries, and access requests for
+                            accountability.</p>
+                    </div>
+                    <div
+                        class="mt-12 pt-6 border-t border-[#D9D7D0] flex justify-between items-center group-hover:border-[#1B1B1B] transition-colors">
+                        <span class="text-[11px] font-bold text-text uppercase tracking-wider"
+                            x-text="isKannada ? 'ಕಾರ್ಯಕ್ಷೇತ್ರವನ್ನು ಪ್ರವೇಶಿಸಿ' : 'Access Workspace'">Access
+                            Workspace</span>
+                        <span
+                            class="material-symbols-outlined text-text group-hover:translate-x-1 transition-transform">arrow_forward</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Clearance Tiers -->
+        <section
+            class="py-[160px] px-margin max-w-[1728px] mx-auto flex flex-col items-center bg-page-bg border-t border-[#D9D7D0]">
+            <h2 class="font-display text-[48px] mb-6 font-bold tracking-tight text-center text-text"
+                x-text="isKannada ? 'ಪಾತ್ರ-ಆಧಾರಿತ ಪ್ರವೇಶ ಪ್ರೋಟೋಕಾಲ್ಗಳು' : 'Role-Based Access Protocols'">Role-Based
+                Access Protocols</h2>
+            <p class="font-body-lg text-muted text-center mb-20 max-w-2xl"
+                x-text="isKannada ? 'ಕಟ್ಟುನಿಟ್ಟಾದ ಸರಪಳಿ-ಕಸ್ಟಡಿ ಮತ್ತು ಡೇಟಾ ಸಮಗ್ರತೆಯನ್ನು ಖಚಿತಪಡಿಸಿಕೊಳ್ಳಲು ಕ್ಲಿಯರೆನ್ಸ್ ಮಟ್ಟದಿಂದ ವಿಭಜಿತವಾದ ಸುರಕ್ಷಿತ ಪರಿಸರಗಳು.' : 'Secure environments partitioned by clearance level to ensure strict chain-of-custody and data integrity.'">
+                Secure environments partitioned by clearance level to ensure strict chain-of-custody and data integrity.
+            </p>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-10 w-full max-w-[1100px] mx-auto">
+                <div class="bg-white-card rounded-[40px] p-12 border border-[#D9D7D0] shadow-md flex flex-col">
+                    <div class="flex items-center gap-4 mb-10">
+                        <span class="material-symbols-outlined text-text text-[32px]">badge</span>
+                        <h3 class="font-h3 text-[28px] font-bold text-text"
+                            x-text="isKannada ? 'ತನಿಖಾಧಿಕಾರಿ ಪ್ರವೇಶ' : 'Investigator Access'">Investigator Access</h3>
+                    </div>
+                    <div class="flex-grow space-y-5">
+                        <div class="flex gap-4 items-start">
+                            <span class="material-symbols-outlined text-black text-[24px]">check_circle</span>
+                            <span class="font-body-md text-text pt-0.5"
+                                x-text="isKannada ? 'ನಿಲ್ದಾಣ ಮಟ್ಟದ ಪ್ರಕರಣದ ಡೇಟಾ ನಮೂದು' : 'Station-level case data entry'">Station-level
+                                case data entry</span>
+                        </div>
+                        <div class="flex gap-4 items-start">
+                            <span class="material-symbols-outlined text-black text-[24px]">check_circle</span>
+                            <span class="font-body-md text-text pt-0.5"
+                                x-text="isKannada ? 'ಅಧಿಕಾರ ವ್ಯಾಪ್ತಿಯಲ್ಲಿ ದ್ವಿಭಾಷಾ RAG ಪ್ರಶ್ನೆ' : 'Bilingual RAG query within jurisdiction'">Bilingual
+                                RAG query within jurisdiction</span>
+                        </div>
+                        <div class="flex gap-4 items-start">
+                            <span class="material-symbols-outlined text-black text-[24px]">check_circle</span>
+                            <span class="font-body-md text-text pt-0.5"
+                                x-text="isKannada ? 'ಪ್ರಮಾಣಿತ ಶಂಕಿತ ಪ್ರೊಫೈಲ್ ಉತ್ಪಾದನೆ' : 'Standard suspect profile generation'">Standard
+                                suspect profile generation</span>
+                        </div>
+                        <div class="flex gap-4 items-start opacity-30 mt-8">
+                            <span class="material-symbols-outlined text-muted text-[24px]">cancel</span>
+                            <span class="font-body-md text-text line-through pt-0.5"
+                                x-text="isKannada ? 'ಅಡ್ಡ-ಜಿಲ್ಲಾ ಗುಪ್ತಚರ ಮ್ಯಾಪಿಂಗ್' : 'Cross-district intelligence mapping'">Cross-district
+                                intelligence mapping</span>
+                        </div>
+                        <div class="flex gap-4 items-start opacity-30">
+                            <span class="material-symbols-outlined text-muted text-[24px]">cancel</span>
+                            <span class="font-body-md text-text line-through pt-0.5"
+                                x-text="isKannada ? 'ಸಿಸ್ಟಮ್-ವ್ಯಾಪಕ ಆಡಿಟ್ ಟ್ರಯಲ್ ಲಾಗ್‌ಗಳು' : 'System-wide audit trail logs'">System-wide
+                                audit trail logs</span>
+                        </div>
+                    </div>
+                    <button
+                        class="mt-14 w-full py-4 rounded-full border-[1.5px] border-line text-text font-label text-[13px] font-bold hover:bg-soft-card transition-colors uppercase tracking-wider"
+                        x-text="isKannada ? 'ಪ್ರೋಟೋಕಾಲ್‌ಗಳನ್ನು ವೀಕ್ಷಿಸಿ' : 'View Protocols'">View Protocols</button>
+                </div>
+
+                <div
+                    class="bg-black rounded-[40px] p-12 shadow-[0_24px_80px_rgba(0,0,0,0.3)] flex flex-col relative overflow-hidden">
+                    <div
+                        class="absolute top-0 right-0 w-[400px] h-[400px] bg-gradient-to-bl from-white/10 to-transparent rounded-bl-full pointer-events-none">
+                    </div>
+
+                    <div class="flex justify-between items-start mb-10 relative z-10">
+                        <div class="flex items-center gap-4">
+                            <span class="material-symbols-outlined text-white text-[32px]">admin_panel_settings</span>
+                            <h3 class="font-h3 text-[28px] font-bold text-white"
+                                x-text="isKannada ? 'ಕಮಾಂಡ್ ಪ್ರವೇಶ' : 'Command Access'">Command Access</h3>
+                        </div>
+                        <span
+                            class="bg-white/20 border border-white/30 text-white px-3 py-1.5 rounded text-[10px] font-bold uppercase tracking-wider"
+                            x-text="isKannada ? 'ಎಸ್‌ಪಿ / ಡಿವೈಎಸ್‌ಪಿ' : 'SP / DySP'">SP / DySP</span>
+                    </div>
+
+                    <div class="flex-grow space-y-5 relative z-10">
+                        <div class="flex gap-4 items-start">
+                            <span class="material-symbols-outlined text-[#FF416C] text-[24px]">check_circle</span>
+                            <span class="font-body-md text-white/90 pt-0.5"
+                                x-text="isKannada ? 'ಜಾಗತಿಕ ನೆಟ್‌ವರ್ಕ್ ಲಿಂಕ್ ವಿಶ್ಲೇಷಣೆ' : 'Global network link analysis'">Global
+                                network link analysis</span>
+                        </div>
+                        <div class="flex gap-4 items-start">
+                            <span class="material-symbols-outlined text-[#FF416C] text-[24px]">check_circle</span>
+                            <span class="font-body-md text-white/90 pt-0.5"
+                                x-text="isKannada ? 'ರಾಜ್ಯಾದ್ಯಂತ ಗುಪ್ತಚರ ಶಾಖ ನಕ್ಷೆಗಳು' : 'State-wide intelligence heatmaps'">State-wide
+                                intelligence heatmaps</span>
+                        </div>
+                        <div class="flex gap-4 items-start">
+                            <span class="material-symbols-outlined text-[#FF416C] text-[24px]">check_circle</span>
+                            <span class="font-body-md text-white/90 pt-0.5"
+                                x-text="isKannada ? 'ನೈಜ-ಸಮಯದ ಅಡ್ಡ-ಜಿಲ್ಲಾ ಎಚ್ಚರಿಕೆಗಳು' : 'Real-time cross-district alerts'">Real-time
+                                cross-district alerts</span>
+                        </div>
+                        <div class="flex gap-4 items-start">
+                            <span class="material-symbols-outlined text-[#FF416C] text-[24px]">check_circle</span>
+                            <span class="font-body-md text-white/90 pt-0.5"
+                                x-text="isKannada ? 'ಮುನ್ಸೂಚಕ ನಿಯೋಜನೆ ಮಾಡ್ಯೂಲ್‌ಗಳು' : 'Predictive deployment modules'">Predictive
+                                deployment modules</span>
+                        </div>
+                        <div class="flex gap-4 items-start">
+                            <span class="material-symbols-outlined text-[#FF416C] text-[24px]">check_circle</span>
+                            <span class="font-body-md text-white/90 pt-0.5"
+                                x-text="isKannada ? 'ಬದಲಾಗದ ಆಡಿಟ್ ಲೆಡ್ಜರ್ ಪ್ರವೇಶ' : 'Immutable audit ledger access'">Immutable
+                                audit ledger access</span>
+                        </div>
+                    </div>
+                    <button
+                        class="mt-14 w-full py-4 rounded-full bg-white text-black font-label text-[13px] font-bold hover:bg-page-bg transition-colors relative z-10 uppercase tracking-wider"
+                        x-text="isKannada ? 'ತೆರವುಗೊಳಿಸಲು ವಿನಂತಿಸಿ' : 'Request Clearance'">Request Clearance</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Operational FAQ Accordion -->
+        <section class="py-[160px] px-margin max-w-[900px] mx-auto bg-page-bg border-t border-[#D9D7D0] mb-20">
+            <h2 class="font-display text-[48px] mb-16 font-bold tracking-tight text-text text-center"
+                x-text="isKannada ? 'ಕಾರ್ಯಾಚರಣೆಯ ನಿಯತಾಂಕಗಳು' : 'Operational Parameters'">Operational Parameters</h2>
+
+            <div class="border-t-[1.5px] border-[#D9D7D0]">
+                <div class="py-8 border-b-[1.5px] border-[#D9D7D0] group cursor-pointer"
+                    onclick="this.querySelector('.content').classList.toggle('hidden'); this.querySelector('.icon').innerText = this.querySelector('.icon').innerText === 'add' ? 'remove' : 'add';">
+                    <div class="flex justify-between items-center">
+                        <h4 class="font-h3 text-xl font-bold text-text group-hover:text-black transition-colors pr-8"
+                            x-text="isKannada ? 'ಯಾವುದೇ ತನಿಖಾ ಡೇಟಾ ಭಾರತವನ್ನು ಬಿಡುತ್ತದೆಯೇ?' : 'Does any investigative data leave India?'">
+                            Does any investigative data leave India?</h4>
+                        <span class="icon material-symbols-outlined text-text text-[24px] shrink-0">add</span>
+                    </div>
+                    <div class="content hidden mt-6">
+                        <p class="font-body-lg text-muted max-w-3xl"
+                            x-text="isKannada ? 'ಇಲ್ಲ. ಸಂಪೂರ್ಣ ಕೆಎಸ್‌ಪಿ ಇಂಟೆಲ್ ಆರ್ಕಿಟೆಕ್ಚರ್ ಅನ್ನು ಸಾರ್ವಭೌಮ, ಆನ್-ಪ್ರಿಮೈಸ್ ಮೂಲಸೌಕರ್ಯದಲ್ಲಿ ನಿಯೋಜಿಸಲಾಗಿದೆ. ಯಾವುದೇ ಬಾಹ್ಯ API ಗಳು ಅಥವಾ ವಿದೇಶಿ ಸರ್ವರ್‌ಗಳು ಡೇಟಾಸೆಟ್‌ನ ಯಾವುದೇ ಭಾಗವನ್ನು ಪ್ರಕ್ರಿಯೆಗೊಳಿಸುವುದಿಲ್ಲ.' : 'No. The entire KSP Intel architecture is deployed on sovereign, on-premise infrastructure. No external APIs or foreign servers process any part of the dataset.'">
+                            No. The entire KSP Intel architecture is deployed on sovereign, on-premise infrastructure.
+                            No external APIs or foreign servers process any part of the dataset.</p>
+                    </div>
+                </div>
+
+                <div class="py-8 border-b-[1.5px] border-[#D9D7D0] group cursor-pointer"
+                    onclick="this.querySelector('.content').classList.toggle('hidden'); this.querySelector('.icon').innerText = this.querySelector('.icon').innerText === 'add' ? 'remove' : 'add';">
+                    <div class="flex justify-between items-center">
+                        <h4 class="font-h3 text-xl font-bold text-text group-hover:text-black transition-colors pr-8"
+                            x-text="isKannada ? 'ದ್ವಿಭಾಷಾ ಇನ್ಪುಟ್ ಅನ್ನು ಸುರಕ್ಷಿತವಾಗಿ ಹೇಗೆ ಪ್ರಕ್ರಿಯೆಗೊಳಿಸಲಾಗುತ್ತದೆ?' : 'How is bilingual input processed securely?'">
+                            How is bilingual input processed securely?</h4>
+                        <span class="icon material-symbols-outlined text-text text-[24px] shrink-0">add</span>
+                    </div>
+                    <div class="content hidden mt-6">
+                        <p class="font-body-lg text-muted max-w-3xl"
+                            x-text="isKannada ? 'ಕನ್ನಡ-ಇಂಗ್ಲಿಷ್ ಕೋಡ್-ಸ್ವಿಚಿಂಗ್ ಮತ್ತು ಸ್ಥಳೀಯ ಕಾನೂನು ಜಾರಿ ಪರಿಭಾಷೆಗಾಗಿ ನಿರ್ದಿಷ್ಟವಾಗಿ ಟ್ಯೂನ್ ಮಾಡಲಾದ ಸ್ಥಳೀಯ ಎಸ್‌ಎಲ್‌ಎಂ (ಸಣ್ಣ ಭಾಷಾ ಮಾದರಿ) ಅನ್ನು ನಾವು ಬಳಸಿಕೊಳ್ಳುತ್ತೇವೆ.' : 'We utilize a localized SLM (Small Language Model) fine-tuned specifically for Kannada-English code-switching and local law enforcement terminology.'">
+                            We utilize a localized SLM (Small Language Model) fine-tuned specifically for
+                            Kannada-English code-switching and local law enforcement terminology.</p>
+                    </div>
+                </div>
+
+                <div class="py-8 border-b-[1.5px] border-[#D9D7D0] group cursor-pointer"
+                    onclick="this.querySelector('.content').classList.toggle('hidden'); this.querySelector('.icon').innerText = this.querySelector('.icon').innerText === 'add' ? 'remove' : 'add';">
+                    <div class="flex justify-between items-center">
+                        <h4 class="font-h3 text-xl font-bold text-text group-hover:text-black transition-colors pr-8"
+                            x-text="isKannada ? 'ನಾವು ಪರಂಪರೆಯ ಎಫ್ಐಆರ್ ಡೇಟಾಬೇಸ್‌ಗಳನ್ನು ಸಂಯೋಜಿಸಬಹುದೇ?' : 'Can we integrate legacy FIR databases?'">
+                            Can we integrate legacy FIR databases?</h4>
+                        <span class="icon material-symbols-outlined text-text text-[24px] shrink-0">remove</span>
+                    </div>
+                    <div class="content block mt-6">
+                        <p class="font-body-lg text-muted max-w-3xl"
+                            x-text="isKannada ? 'ಹೌದು, ಪ್ಲಾಟ್‌ಫಾರ್ಮ್ 15 ವರ್ಷಗಳ ಅವಧಿಯ ರಚನೆಯಿಲ್ಲದ ಐತಿಹಾಸಿಕ ದಾಖಲೆಗಳನ್ನು ಸೇವಿಸಲು, ಸ್ವಚ್ಛಗೊಳಿಸಲು ಮತ್ತು ವೆಕ್ಟರೈಸ್ ಮಾಡಲು ವಿನ್ಯಾಸಗೊಳಿಸಲಾದ ಸ್ವಯಂಚಾಲಿತ ಇಟಿಎಲ್ ಪೈಪ್‌ಲೈನ್‌ಗಳನ್ನು ಒಳಗೊಂಡಿದೆ.' : 'Yes, the platform includes automated ETL pipelines designed to ingest, sanitize, and vectorize unstructured historical records spanning over 15 years.'">
+                            Yes, the platform includes automated ETL pipelines designed to ingest, sanitize, and
+                            vectorize unstructured historical records spanning over 15 years.</p>
+                    </div>
+                </div>
+
+                <div class="py-8 border-b-[1.5px] border-[#D9D7D0] group cursor-pointer"
+                    onclick="this.querySelector('.content').classList.toggle('hidden'); this.querySelector('.icon').innerText = this.querySelector('.icon').innerText === 'add' ? 'remove' : 'add';">
+                    <div class="flex justify-between items-center">
+                        <h4 class="font-h3 text-xl font-bold text-text group-hover:text-black transition-colors pr-8"
+                            x-text="isKannada ? 'ನೋಡ್ ಸಂಪರ್ಕವನ್ನು ಕಳೆದುಕೊಂಡರೆ ಏನಾಗುತ್ತದೆ?' : 'What happens if a node loses connectivity?'">
+                            What happens if a node loses connectivity?</h4>
+                        <span class="icon material-symbols-outlined text-text text-[24px] shrink-0">add</span>
+                    </div>
+                    <div class="content hidden mt-6">
+                        <p class="font-body-lg text-muted max-w-3xl"
+                            x-text="isKannada ? 'ಸಿಸ್ಟಮ್ ವಿಭಜಿತ ಆಫ್‌ಲೈನ್ ಕಾರ್ಯಗತಗೊಳಿಸುವಿಕೆಯನ್ನು ಬೆಂಬಲಿಸುತ್ತದೆ. ಫೀಲ್ಡ್ ಏಜೆಂಟ್‌ಗಳು ಸ್ಥಳೀಯವಾಗಿ ಎಂಟಿಟಿಗಳನ್ನು ಲಾಗ್ ಮಾಡುವುದನ್ನು ಮುಂದುವರಿಸಬಹುದು, ಸಂಪರ್ಕವನ್ನು ಮರುಸ್ಥಾಪಿಸಿದ ನಂತರ ಅದು ಸ್ವಯಂಚಾಲಿತವಾಗಿ ಎನ್‌ಕ್ರಿಪ್ಟ್ ಮಾಡುತ್ತದೆ ಮತ್ತು ಸಿಂಕ್ ಮಾಡುತ್ತದೆ.' : 'The system supports partitioned offline execution. Field agents can continue logging entities locally, which automatically encrypt and sync once connectivity is restored.'">
+                            The system supports partitioned offline execution. Field agents can continue logging
+                            entities locally, which automatically encrypt and sync once connectivity is restored.</p>
+                    </div>
+                </div>
+
+                <div class="py-8 border-b-[1.5px] border-[#D9D7D0] group cursor-pointer"
+                    onclick="this.querySelector('.content').classList.toggle('hidden'); this.querySelector('.icon').innerText = this.querySelector('.icon').innerText === 'add' ? 'remove' : 'add';">
+                    <div class="flex justify-between items-center">
+                        <h4 class="font-h3 text-xl font-bold text-text group-hover:text-black transition-colors pr-8"
+                            x-text="isKannada ? 'ಕ್ಲಿಯರೆನ್ಸ್ ಪ್ರೋಟೋಕಾಲ್‌ಗಳನ್ನು ಯಾರು ನಿರ್ವಹಿಸುತ್ತಾರೆ?' : 'Who manages the clearance protocols?'">
+                            Who manages the clearance protocols?</h4>
+                        <span class="icon material-symbols-outlined text-text text-[24px] shrink-0">add</span>
+                    </div>
+                    <div class="content hidden mt-6">
+                        <p class="font-body-lg text-muted max-w-3xl"
+                            x-text="isKannada ? 'ಕ್ಲಿಯರೆನ್ಸ್ ಶ್ರೇಣಿಗಳನ್ನು ಪ್ರೋಗ್ರಾಮಿಕ್ ಆಗಿ ಆಂತರಿಕ ರಾಜ್ಯ ಡೈರೆಕ್ಟರಿಗೆ ಬಂಧಿಸಲಾಗಿದೆ. ಶ್ರೇಣಿಯ ಉಲ್ಬಣಗಳಿಗೆ ಕಮಾಂಡಿಂಗ್ ಅಧಿಕಾರಿಯಿಂದ ಕ್ರಿಪ್ಟೋಗ್ರಾಫಿಕ್ ಸಹಿ ಮಾಡುವ ಅಗತ್ಯವಿದೆ.' : 'Clearance tiers are programmatically bound to the internal state directory. Tier escalations require cryptographic signing by a commanding officer.'">
+                            Clearance tiers are programmatically bound to the internal state directory. Tier escalations
+                            require cryptographic signing by a commanding officer.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Updated Footer for KSP Portal -->
+    <footer class="bg-black text-white pt-xl pb-lg px-margin relative z-20">
+        <div class="max-w-[1728px] mx-auto">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-xl mb-xl">
+                <!-- Brand Column -->
+                <div class="flex flex-col gap-8">
+                    <div class="flex items-center gap-4">
+                        <div
+                            class="w-12 h-12 rounded-full border border-[#D9D7D0]/20 flex items-center justify-center shrink-0 bg-[#F0EFEB]">
+                            <img src="./image copy.png" alt="Govt Emblem" class="w-8 h-8 object-contain" />
+                        </div>
+                        <h3 class="font-bold text-lg leading-tight"
+                            x-text="isKannada ? 'ಕರ್ನಾಟಕ<br/>ರಾಜ್ಯ ಪೊಲೀಸ್' : 'Karnataka<br/>State Police'"
+                            x-html="isKannada ? 'ಕರ್ನಾಟಕ<br/>ರಾಜ್ಯ ಪೊಲೀಸ್' : 'Karnataka<br/>State Police'">
+                            Karnataka<br />State Police</h3>
+                    </div>
+                    <p class="font-body-md text-white/80 max-w-xs"
+                        x-text="isKannada ? 'ಕರ್ನಾಟಕದಲ್ಲಿ ಆಧುನಿಕ ಕಾನೂನು ಜಾರಿಗಾಗಿ ಅಧಿಕೃತ ಗುಪ್ತಚರ ಮತ್ತು ಆಡಳಿತ ಪೋರ್ಟಲ್.' : 'The official intelligence and administrative portal for modern law enforcement in Karnataka.'">
+                        The official intelligence and administrative portal for modern law enforcement in Karnataka.
+                    </p>
+                    <div class="flex gap-4">
+                        <a class="w-10 h-10 rounded-full border border-white/30 flex items-center justify-center hover:bg-white/20 transition-colors"
+                            href="#">
+                            <span class="material-symbols-outlined text-[20px]">share</span>
+                        </a>
+                        <a class="w-10 h-10 rounded-full border border-white/30 flex items-center justify-center hover:bg-white/20 transition-colors"
+                            href="#">
+                            <span class="material-symbols-outlined text-[20px]">public</span>
+                        </a>
+                    </div>
+                </div>
+
+                <div>
+                    <h4 class="font-label text-white mb-6 uppercase tracking-widest text-[10px]"
+                        x-text="isKannada ? 'ಇಲಾಖೆ' : 'Department'">Department</h4>
+                    <ul class="flex flex-col gap-4">
+                        <li><a class="font-body-md text-white/70 hover:text-white transition-colors" href="#"
+                                x-text="isKannada ? 'ನಮ್ಮ ಬಗ್ಗೆ' : 'About Us'">About Us</a></li>
+                        <li><a class="font-body-md text-white/70 hover:text-white transition-colors" href="#"
+                                x-text="isKannada ? 'ಆಡಳಿತ' : 'Administration'">Administration</a></li>
+                        <li><a class="font-body-md text-white/70 hover:text-white transition-colors" href="#"
+                                x-text="isKannada ? 'ನಮ್ಮನ್ನು ಸಂಪರ್ಕಿಸಿ' : 'Contact Us'">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-label text-white mb-6 uppercase tracking-widest text-[10px]"
+                        x-text="isKannada ? 'ಪ್ರಮುಖ ಲಿಂಕ್‌ಗಳು' : 'Important Links'">Important Links</h4>
+                    <ul class="flex flex-col gap-4">
+                        <li><a class="font-body-md text-white/70 hover:text-white transition-colors" href="#"
+                                x-text="isKannada ? 'ಕರ್ನಾಟಕ ಸರ್ಕಾರದ ಅಧಿಕೃತ ಜಾಲತಾಣ' : 'Official Website of GoK'">Official
+                                Website of GoK</a></li>
+                        <li><a class="font-body-md text-white/70 hover:text-white transition-colors" href="#"
+                                x-text="isKannada ? 'ಟೆಂಡರ್‌ಗಳು - ಇ-ಪ್ರೊಕ್ಯೂರ್‌ಮೆಂಟ್' : 'Tenders - eProcurement'">Tenders
+                                - eProcurement</a></li>
+                        <li><a class="font-body-md text-white/70 hover:text-white transition-colors" href="#"
+                                x-text="isKannada ? 'ಆರ್.ಟಿ.ಐ' : 'RTI'">RTI</a></li>
+                        <li><a class="font-body-md text-white/70 hover:text-white transition-colors" href="#"
+                                x-text="isKannada ? 'ಪೊಲೀಸ್ ಠಾಣೆ ಲೊಕೇಟರ್' : 'Police Station Locator'">Police Station
+                                Locator</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="pt-md border-t border-white/20 flex flex-col md:flex-row justify-between items-center gap-4">
+                <p class="font-label text-[11px] text-white/70">© 2026 Karnataka State Police. All rights reserved.</p>
+                <div class="flex gap-8">
+                    <a class="font-label text-[11px] text-white/70 hover:text-white transition-colors" href="#"
+                        x-text="isKannada ? 'ಗೌಪ್ಯತಾ ನೀತಿ' : 'Privacy Policy'">Privacy Policy</a>
+                    <a class="font-label text-[11px] text-white/70 hover:text-white transition-colors" href="#"
+                        x-text="isKannada ? 'ಸೇವಾ ನಿಯಮಗಳು' : 'Terms of Service'">Terms of Service</a>
+                    <a class="font-label text-[11px] text-white/70 hover:text-white transition-colors" href="#"
+                        x-text="isKannada ? 'ಪ್ರವೇಶಿಸುವಿಕೆ ಹೇಳಿಕೆ' : 'Accessibility Statement'">Accessibility
+                        Statement</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script type="text/javascript">
+        // Font Sizing Logic
+        let currentFontSizeLevel = 0;
+        function changeFontSize(level) {
+            if (level === 0) {
+                currentFontSizeLevel = 0;
+            } else {
+                currentFontSizeLevel += level;
+            }
+
+            // Limit bounds between -2 and 2
+            currentFontSizeLevel = Math.max(-2, Math.min(2, currentFontSizeLevel));
+
+            // Base size is 100%, each level adds/subtracts 10%
+            const newSize = 100 + (currentFontSizeLevel * 10);
+            document.documentElement.style.fontSize = \`\${newSize}%\`;
+        }
+    </script>`;
+export default landingHTML;
