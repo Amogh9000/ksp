@@ -72,16 +72,10 @@ app = FastAPI(
     version="1.0.0",
 )
 
-# ── CORS — allow the Next.js dev server (and any origin) to call this API ───
-frontend_origins = [
-    origin.strip()
-    for origin in os.getenv("FRONTEND_ORIGINS", "http://localhost:3000").split(",")
-    if origin.strip()
-]
-
+# ── CORS — allow any origin containing 'ksp' via regex ───
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=frontend_origins,
+    allow_origin_regex=".*ksp.*",
     allow_credentials=False,
     allow_methods=["*"],
     allow_headers=["*"],

@@ -11,14 +11,11 @@ app = FastAPI(
 )
 
 # ---------------------------------------------------------------------------
-# CORS — configurable via CORS_ORIGINS env var (comma-separated URLs)
+# CORS — allow any origin containing 'ksp' via regex
 # ---------------------------------------------------------------------------
-_raw_origins = os.getenv("CORS_ORIGINS", "http://localhost:3000")
-allowed_origins = [o.strip() for o in _raw_origins.split(",") if o.strip()]
-
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=allowed_origins,
+    allow_origin_regex=".*ksp.*",
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
