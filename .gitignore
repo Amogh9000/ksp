@@ -1,1 +1,49 @@
-ÿþ
+# Environment files and secrets
+.env
+.env.*
+!.env.example
+!.env.*.example
+
+# Node / Next.js generated dependencies and build output
+node_modules/
+.next/
+out/
+.turbo/
+*.tsbuildinfo
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Python generated files, environments, and test/tool caches
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+ENV/
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# Runtime logs and locally generated data exports
+audit_log.jsonl
+fallback_audit.jsonl
+query_transactions.jsonl
+translated_audit_log.jsonl
+catalyst_csv_bundle.zip
+*.dump
+
+# Local tools and operating-system/editor files
+vs_BuildTools.exe
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
