@@ -11,12 +11,12 @@ app = FastAPI(
 )
 
 # ---------------------------------------------------------------------------
-# CORS — allow any origin containing 'ksp' via regex
+# CORS — allow all origins for local dev; restrict in production
 # ---------------------------------------------------------------------------
 app.add_middleware(
     CORSMiddleware,
-    allow_origin_regex=".*ksp.*",
-    allow_credentials=True,
+    allow_origins=["*"],
+    allow_credentials=False,
     allow_methods=["*"],
     allow_headers=["*"],
 )

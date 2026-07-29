@@ -1,10 +1,11 @@
 # Environment files and secrets
 .env
+.env.local
 .env.*
 !.env.example
 !.env.*.example
 
-# Node / Next.js generated dependencies and build output
+# Node / Next.js dependencies and build output
 node_modules/
 .next/
 out/
@@ -15,7 +16,7 @@ yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
 
-# Python generated files, environments, and test/tool caches
+# Python generated files, environments, and caches
 __pycache__/
 *.py[cod]
 *$py.class
@@ -33,17 +34,20 @@ build/
 coverage.xml
 htmlcov/
 
-# Runtime logs and locally generated data exports
+# Runtime logs and transaction records
 audit_log.jsonl
 fallback_audit.jsonl
 query_transactions.jsonl
 translated_audit_log.jsonl
+*.log
+
+# Large database dumps and zip bundles
 catalyst_csv_bundle.zip
 *.dump
 
-# Local tools and operating-system/editor files
-vs_BuildTools.exe
+# Operating system & editor files
 .DS_Store
 Thumbs.db
 .idea/
 .vscode/
+*.swp

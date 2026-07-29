@@ -4,7 +4,7 @@ import { useState, useEffect, useRef } from 'react';
 import Link from 'next/link';
 import dynamic from 'next/dynamic';
 
-const API_BASE_URL = (process.env.NEXT_PUBLIC_API_BASE_URL ?? 'http://localhost:8000').replace(/\/$/, '');
+const API_BASE_URL = (process.env.NEXT_PUBLIC_API_BASE_URL ?? 'http://127.0.0.1:8000').replace(/\/$/, '');
 const QUERY_API_BASE_URL = (process.env.NEXT_PUBLIC_QUERY_API_BASE_URL ?? API_BASE_URL).replace(/\/$/, '');
 
 // ── Types for backend response ──────────────────────────────────────────────
@@ -256,7 +256,10 @@ function DirectoryComponent() {
   useEffect(() => {
     setLoading(true);
     fetch(`${QUERY_API_BASE_URL}/api/directory?page=${page}&limit=50&lang=${localLang}`)
-      .then(res => res.json())
+      .then(res => {
+        if (!res.ok) throw new Error('Network response was not ok');
+        return res.json();
+      })
       .then(resData => {
         setData(resData);
         setLoading(false);
@@ -671,31 +674,46 @@ export default function DashboardPage() {
 
   useEffect(() => {
     fetch(`${QUERY_API_BASE_URL}/api/telemetry`)
-      .then(res => res.json())
+      .then(res => {
+        if (!res.ok) throw new Error('Network response was not ok');
+        return res.json();
+      })
       .then(data => setTelemetry(data))
       .catch(err => console.error('Failed to fetch telemetry:', err));
 
     fetch(`${QUERY_API_BASE_URL}/api/feed?lang=${isKannada ? 'kn' : 'en'}`)
-      .then(res => res.json())
+      .then(res => {
+        if (!res.ok) throw new Error('Network response was not ok');
+        return res.json();
+      })
       .then(data => setFeed(data))
       .catch(err => console.error('Failed to fetch feed:', err));
   }, [isKannada]);
 
   // Google Translate initialization
   useEffect(() => {
+    // Guard: only initialize once across the entire app lifecycle
+    if ((window as any)._googleTranslateInitialized) return;
+
     if (!document.getElementById('google-translate-script')) {
+      (window as any).googleTranslateElementInit = () => {
+        if ((window as any)._googleTranslateInitialized) return;
+        (window as any)._googleTranslateInitialized = true;
+        try {
+          new (window as any).google.translate.TranslateElement(
+            { pageLanguage: 'en', includedLanguages: 'kn,en', layout: (window as any).google.translate.TranslateElement.InlineLayout.SIMPLE, autoDisplay: false },
+            'google_translate_element'
+          );
+        } catch (e) {
+          console.warn('Google Translate initialization failed:', e);
+        }
+      };
+
       const addScript = document.createElement('script');
       addScript.id = 'google-translate-script';
       addScript.src = '//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit';
       addScript.async = true;
       document.body.appendChild(addScript);
-
-      (window as any).googleTranslateElementInit = () => {
-        new (window as any).google.translate.TranslateElement(
-          { pageLanguage: 'en', includedLanguages: 'kn,en', layout: (window as any).google.translate.TranslateElement.InlineLayout.SIMPLE, autoDisplay: false },
-          'google_translate_element'
-        );
-      };
     }
   }, []);
 
@@ -1007,16 +1025,16 @@ export default function DashboardPage() {
             <div className="flex-1 flex flex-col justify-center gap-4 relative z-10">
               <div className="flex justify-between items-end border-b border-white/20 pb-2">
                 <span className="text-[10px] font-mono text-white/60">{isKannada ? 'ಸಕ್ರಿಯ ಘಟಕಗಳು' : 'ACTIVE ENTITIES'}</span>
-                <span className="text-[20px] font-bold text-white font-mono leading-none">{telemetry.active_entities.toLocaleString()}</span>
+                <span className="text-[20px] font-bold text-white font-mono leading-none">{telemetry?.active_entities?.toLocaleString() ?? '0'}</span>
               </div>
               <div className="flex justify-between items-end border-b border-white/20 pb-2">
                 <span className="text-[10px] font-mono text-white/60">{isKannada ? 'ಗುರುತಿಸಲಾದ ಕೊಂಡಿಗಳು' : 'IDENTIFIED EDGES'}</span>
-                <span className="text-[20px] font-bold text-white font-mono leading-none">{telemetry.identified_edges.toLocaleString()}</span>
+                <span className="text-[20px] font-bold text-white font-mono leading-none">{telemetry?.identified_edges?.toLocaleString() ?? '0'}</span>
               </div>
 
               <div className="mt-4 border border-[#FF4B2B] bg-[#FF4B2B]/10 p-3 flex justify-between items-center">
                 <span className="text-[10px] font-mono text-[#FF4B2B] font-bold tracking-wider">{isKannada ? 'ನಿರ್ಣಾಯಕ ವಿಲಕ್ಷಣಗಳು' : 'CRITICAL CROSS-ANOMALIES'}</span>
-                <span className="text-[24px] font-bold text-[#FF4B2B] leading-none">{telemetry.critical_anomalies.toLocaleString()}</span>
+                <span className="text-[24px] font-bold text-[#FF4B2B] leading-none">{telemetry?.critical_anomalies?.toLocaleString() ?? '0'}</span>
               </div>
             </div>
 

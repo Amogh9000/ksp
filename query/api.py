@@ -75,7 +75,7 @@ app = FastAPI(
 # ── CORS — allow any origin containing 'ksp' via regex ───
 app.add_middleware(
     CORSMiddleware,
-    allow_origin_regex=".*ksp.*",
+    allow_origins=["*"], # Allow all origins for local dev
     allow_credentials=False,
     allow_methods=["*"],
     allow_headers=["*"],
