@@ -1,4 +1,15 @@
 fastapi
 uvicorn
+pydantic
+pydantic-settings
+sqlalchemy
+asyncpg
+psycopg2-binary
+python-jose[cryptography]
+passlib[bcrypt]
 networkx
 scikit-learn
+pandas
+numpy
+requests
+python-dotenv
