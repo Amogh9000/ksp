@@ -3,9 +3,9 @@ import re
 import json
 import pandas as pd
 
-text_path = r"c:\Users\Admin\OneDrive\Desktop\KSP\backend\pdf_text.txt"
-json_out_path = r"c:\Users\Admin\OneDrive/Desktop\KSP\backend\geocoded_stations.json"
-csv_out_path = r"c:\Users\Admin\OneDrive\Desktop\KSP\catalyst_csv_bundle\police_stations.csv"
+text_path = r"pdf_text.txt"
+json_out_path = r"geocoded_stations.json"
+csv_out_path = r"catalyst_csv_bundle\police_stations.csv"
 
 # Pre-defined accurate coordinates for Bengaluru localities / police station jurisdictions
 LOCALITY_COORDS = {

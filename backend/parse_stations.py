@@ -30,7 +30,7 @@ for line in lines:
                 stations.append(clean_name)
 
 # Now, we need to save this to police_stations.csv in the catalyst_csv_bundle
-csv_path = r'c:\Users\Admin\OneDrive\Desktop\KSP\catalyst_csv_bundle\police_stations.csv'
+csv_path = r'catalyst_csv_bundle\police_stations.csv'
 df = pd.DataFrame({
     'Sl': range(1, len(stations) + 1),
     'Station Code': '',

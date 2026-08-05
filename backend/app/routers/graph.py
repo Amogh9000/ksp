@@ -6,7 +6,7 @@ from fastapi import APIRouter, HTTPException
 
 router = APIRouter()
 
-CSV_DIR = r"c:\Users\Admin\OneDrive\Desktop\KSP\catalyst_csv_bundle"
+CSV_DIR = os.environ.get("CSV_DIR", os.path.normpath(os.path.join(os.path.dirname(__file__), "..", "..", "..", "catalyst_csv_bundle")))
 accused_path = os.path.join(CSV_DIR, "Accused.csv")
 case_master_path = os.path.join(CSV_DIR, "CaseMaster.csv")
 victim_path = os.path.join(CSV_DIR, "Victim.csv")

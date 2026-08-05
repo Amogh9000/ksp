@@ -5,8 +5,8 @@ import json
 import os
 import time
 
-CSV_PATH = r"c:\Users\Admin\OneDrive\Desktop\KSP\catalyst_csv_bundle\police_stations.csv"
-OUT_PATH = r"c:\Users\Admin\OneDrive\Desktop\KSP\backend\geocoded_stations.json"
+CSV_PATH = r"catalyst_csv_bundle\police_stations.csv"
+OUT_PATH = r"geocoded_stations.json"
 
 def main():
     print("Loading police stations CSV...")
