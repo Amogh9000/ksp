@@ -133,15 +133,15 @@ export default function DashboardPage() {
         const isKnResponse = data.detected_language === 'kn';
         const textEn = isKnResponse ? data.translated_text : (data.answer_text || JSON.stringify(data));
         const textKn = isKnResponse ? data.answer_text : (data.translated_text || data.answer_text);
-        
-        const aiMsg: ChatMessage = { 
-          id: Math.random().toString(), 
-          role: 'ai', 
-          text: textEn || 'No response', 
-          textEn, 
-          textKn, 
-          showKn: false, 
-          timestamp: new Date().toLocaleTimeString() 
+
+        const aiMsg: ChatMessage = {
+          id: Math.random().toString(),
+          role: 'ai',
+          text: textEn || 'No response',
+          textEn,
+          textKn,
+          showKn: false,
+          timestamp: new Date().toLocaleTimeString()
         };
         setChatMessages(prev => [...prev, aiMsg]);
       } else {
@@ -165,7 +165,7 @@ export default function DashboardPage() {
   };
 
   const toggleVoice = () => {
-    if (!('webkitSpeechRecognition' in window)) {
+    if (!(('SpeechRecognition' in window) || ('webkitSpeechRecognition' in window))) {
       alert('Speech recognition is not supported in this browser.');
       return;
     }
@@ -175,14 +175,14 @@ export default function DashboardPage() {
       return; // The recognition will stop on its own or we can force it, but let's keep it simple
     }
 
-    const SpeechRecognition = window.SpeechRecognition || (window as any).webkitSpeechRecognition;
+    const SpeechRecognition = (window as any).SpeechRecognition || (window as any).webkitSpeechRecognition;
     const recognition = new SpeechRecognition();
     recognition.lang = isKannada ? 'kn-IN' : 'en-US';
     recognition.interimResults = false;
     recognition.maxAlternatives = 1;
 
     recognition.onstart = () => setIsListening(true);
-    
+
     recognition.onresult = (event: any) => {
       const transcript = event.results[0][0].transcript;
       setChatInput(prev => prev + (prev ? ' ' : '') + transcript);
@@ -292,11 +292,10 @@ export default function DashboardPage() {
               <button
                 key={item.key}
                 onClick={() => setActiveView(item.key)}
-                className={`flex items-center gap-3 px-3 py-3 text-[12px] font-bold uppercase tracking-wider mb-1 transition-colors ${
-                  activeView === item.key
+                className={`flex items-center gap-3 px-3 py-3 text-[12px] font-bold uppercase tracking-wider mb-1 transition-colors ${activeView === item.key
                     ? 'bg-[var(--color-white-card)] border border-black shadow-[2px_2px_0px_0px_rgba(0,0,0,1)] text-[var(--color-ksp-text)]'
                     : 'bg-transparent border border-transparent hover:border-[var(--color-line)] hover:bg-white text-[var(--color-muted)] hover:text-[var(--color-ksp-text)]'
-                }`}
+                  }`}
               >
                 <span className="material-symbols-outlined text-[18px]">{item.icon}</span>
                 <span>{isKannada ? item.labelKn : item.labelEn}</span>
@@ -402,7 +401,7 @@ export default function DashboardPage() {
                       <div className="flex items-center justify-between mt-2 gap-4">
                         <span className="text-[9px] font-mono text-[var(--color-muted-light)]">{msg.timestamp}</span>
                         {msg.role === 'ai' && msg.textKn && (
-                          <button 
+                          <button
                             onClick={() => toggleMessageLanguage(msg.id)}
                             className="text-[10px] font-mono px-2 py-1 border border-[var(--color-line)] bg-white hover:bg-[var(--color-soft-card)] text-[var(--color-muted)] transition-colors shrink-0"
                           >
