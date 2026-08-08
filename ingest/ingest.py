@@ -3,6 +3,7 @@ import os
 import sys
 import re
 from datetime import datetime
+from pathlib import Path
 from dotenv import load_dotenv
 
 # LlamaIndex Imports
@@ -15,8 +16,34 @@ from llama_index.llms.groq import Groq
 # Ensure stdout handles UTF-8 on Windows
 sys.stdout.reconfigure(encoding="utf-8")
 
-# Force load the environment variables
-load_dotenv(override=True)
+# ---------------------------------------------------------------------------
+# Load environment variables — search multiple locations so the script works
+# regardless of whether it's run from ksp/, ksp/ingest/, etc.
+# ---------------------------------------------------------------------------
+_script_dir = Path(__file__).resolve().parent          # ksp/ingest/
+_repo_root  = _script_dir.parent                       # ksp/
+
+_env_candidates = [
+    _repo_root / "query" / ".env",    # primary: ksp/query/.env (has DB_* + GROQ)
+    _repo_root / ".env",              # fallback: ksp/.env (if user consolidates)
+    _script_dir / ".env",             # fallback: ksp/ingest/.env
+]
+
+for _env_path in _env_candidates:
+    if _env_path.exists():
+        load_dotenv(dotenv_path=_env_path, override=True)
+        print(f"[INFO] Loaded environment from: {_env_path}")
+        break
+else:
+    print("[WARN] No .env file found — relying on system environment variables.")
+
+# Validate required DB config early to give a clear error message
+_required_env = ["DB_HOST", "DB_PORT", "DB_NAME", "DB_USER", "DB_PASSWORD"]
+_missing = [k for k in _required_env if not os.getenv(k)]
+if _missing:
+    print(f"\n❌ Missing required environment variables: {_missing}")
+    print("   Make sure ksp/query/.env contains all DB_* settings.")
+    sys.exit(1)
 
 
 def validate_and_clean_record(record: dict, index: int) -> dict:

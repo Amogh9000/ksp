@@ -538,5 +538,5 @@ def get_recent_incidents():
         return JSONResponse(content={"error": "Failed to load recent incidents", "details": str(exc)}, status_code=500)
 
 if __name__ == "__main__":
-    print("🚀 Firing up the Intelligence Gateway on port 8000...")
-    uvicorn.run(app, host="0.0.0.0", port=8000)
+    print("🚀 Firing up the Intelligence Gateway on port 8001...")
+    uvicorn.run(app, host="0.0.0.0", port=8001)
